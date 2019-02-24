@@ -1,0 +1,4 @@
+#Fri Feb 22 20:44:01 EST 2019
+base.0=C\:\\Users\\DELL1\\Desktop\\Phonegap\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
