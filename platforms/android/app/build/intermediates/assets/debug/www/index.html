@@ -77,5 +77,15 @@
         <script type="text/javascript" src="js/player.js"></script>
         <script type="text/javascript" src="js/social_sharing.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script>
+          $(document).ready(function () {
+            $('.swipe-tab').each(function () {
+              var _this = $(this);
+              _this.removeClass('slick-current, active-tab');
+            });
+            // Activate the second tab header
+            $('.swipe-tab[data-slick-index="1"]').addClass('slick-current, active-tab');
+          });
+        </script>
     </body>
 </html>

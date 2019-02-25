@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="tk.hectorlara.radiohl" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Camara809FM</name>
+    <name>Camara 809 FM</name>
     <description>
         RadioHL App for modern radiostations
     </description>
@@ -18,6 +18,8 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <preference name="Orientation" value="portrait" />
+        <preference name="android-minSdkVersion" value="19" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -31,5 +33,7 @@
     <plugin name="cordova-plugin-x-socialsharing" spec="^5.4.4">
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="24.1.1+" />
     </plugin>
+    <plugin name="cordova-plugin-music-controls" spec="https://github.com/homerours/cordova-music-controls-plugin" />
+    <icon src="www/img/logo.png" />
     <engine name="android" spec="^7.1.4" />
 </widget>

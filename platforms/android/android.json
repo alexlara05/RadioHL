@@ -55,6 +55,10 @@
             {
               "xml": "<feature name=\"SocialSharing\"><param name=\"android-package\" value=\"nl.xservices.plugins.SocialSharing\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"MusicControls\"><param name=\"android-package\" value=\"com.homerours.musiccontrols.MusicControls\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -81,6 +85,10 @@
             {
               "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
               "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />",
+              "count": 1
             }
           ],
           "/manifest/application": [
@@ -90,6 +98,10 @@
             },
             {
               "xml": "<provider android:authorities=\"${applicationId}.sharing.provider\" android:exported=\"false\" android:grantUriPermissions=\"true\" android:name=\"nl.xservices.plugins.FileProvider\"><meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"@xml/sharing_paths\" /></provider>",
+              "count": 1
+            },
+            {
+              "xml": "<service android:name=\"com.homerours.musiccontrols.MusicControlsNotificationKiller\" />",
               "count": 1
             }
           ],
@@ -139,6 +151,9 @@
     },
     "cordova-plugin-x-socialsharing": {
       "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
+      "PACKAGE_NAME": "tk.hectorlara.radiohl"
+    },
+    "cordova-plugin-music-controls": {
       "PACKAGE_NAME": "tk.hectorlara.radiohl"
     }
   },
@@ -397,6 +412,14 @@
       "clobbers": [
         "window.plugins.socialsharing"
       ]
+    },
+    {
+      "id": "cordova-plugin-music-controls.MusicControls",
+      "file": "plugins/cordova-plugin-music-controls/www/MusicControls.js",
+      "pluginId": "cordova-plugin-music-controls",
+      "clobbers": [
+        "MusicControls"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -409,6 +432,7 @@
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-background-mode": "0.7.2",
     "es6-promise-plugin": "4.2.2",
-    "cordova-plugin-x-socialsharing": "5.4.4"
+    "cordova-plugin-x-socialsharing": "5.4.4",
+    "cordova-plugin-music-controls": "2.2.0"
   }
 }

@@ -253,6 +253,14 @@ module.exports = [
     "clobbers": [
       "window.plugins.socialsharing"
     ]
+  },
+  {
+    "id": "cordova-plugin-music-controls.MusicControls",
+    "file": "plugins/cordova-plugin-music-controls/www/MusicControls.js",
+    "pluginId": "cordova-plugin-music-controls",
+    "clobbers": [
+      "MusicControls"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -267,7 +275,8 @@ module.exports.metadata =
   "cordova-plugin-device": "2.0.2",
   "cordova-plugin-background-mode": "0.7.2",
   "es6-promise-plugin": "4.2.2",
-  "cordova-plugin-x-socialsharing": "5.4.4"
+  "cordova-plugin-x-socialsharing": "5.4.4",
+  "cordova-plugin-music-controls": "2.2.0"
 };
 // BOTTOM OF METADATA
 });

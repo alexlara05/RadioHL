@@ -28,18 +28,18 @@
                 {
                     "source": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "163,55,104",
-                        "endColumns": "63,48,58",
-                        "endOffsets": "222,99,158"
+                        "startLines": "-1,2,-1",
+                        "startColumns": "-1,4,-1",
+                        "startOffsets": "-1,55,-1",
+                        "endColumns": "-1,50,-1",
+                        "endOffsets": "-1,101,-1"
                     },
                     "to": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
-                        "startOffsets": "55,119,168",
-                        "endColumns": "63,48,58",
-                        "endOffsets": "114,163,222"
+                        "startOffsets": "55,119,170",
+                        "endColumns": "63,50,58",
+                        "endOffsets": "114,165,224"
                     }
                 }
             ]

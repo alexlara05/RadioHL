@@ -18,6 +18,7 @@ $(function () {
 
     $swipeTabsContainer.slick({
         //slidesToShow: 3.25,
+        initialSlide: 0,
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
@@ -28,6 +29,7 @@ $(function () {
 
     $swipeTabsContentContainer.slick({
         asNavFor: $swipeTabsContainer,
+        initialSlide: 1, // Set the initial tab
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
