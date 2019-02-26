@@ -9,7 +9,7 @@
 }
 .slick-initialized .swipe-tab-content {
     position: relative;
-    min-height: 365px;
+   
   }
   @media screen and (min-width: 767px) {
     .slick-initialized .swipe-tab-content {
@@ -48,7 +48,16 @@
     font-weight: bold;
     background: #b43b3b;
 }
-  
   .main-container {
-    padding: 25px;
+    padding: 20px;
   }
+
+  .slick-track{
+    display: flex !important;
+    align-items: flex-end;
+  }
+
+  .fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%; }

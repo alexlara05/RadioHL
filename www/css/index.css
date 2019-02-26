@@ -152,3 +152,6 @@ img[alt="Play"]{
 .current_seconds{
     text-align: center
 }
+.height100{
+    height: 100%;
+}

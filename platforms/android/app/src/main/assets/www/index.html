@@ -43,16 +43,28 @@
     <body>
         <div class="app_header">LA INVASION URBANA</div>
         <div class="sub-header ">
-            <div class="swipe-tabs">
-              <div class="swipe-tab">CHAT</div>
-              <div class="swipe-tab">EN VIVO</div>
-              <div class="swipe-tab">DESCUBRE</div>
-            </div>
+          <div class="swipe-tabs">
+            <div class="swipe-tab">CHAT</div>
+            <div class="swipe-tab">EN VIVO</div>
+            <div class="swipe-tab">DESCUBRE</div>
           </div>
+        </div>
           <div class="main-container">
             <div class="swipe-tabs-container ">
               <div class="swipe-tab-content chat">
-                chat tab
+                <div id="output"></div>
+                <div class="chatContent">
+                  <div id="chat">
+                    <p id="presence" style="color: red;"></p>
+                    <a href="#" id="button" class="boton"><i class="fa fa-paper-plane" aria-hidden="true"></i>Enviar</a>
+                  </div>
+                  <div class="chat-controls" style="padding: 15px; background: #fff; border-radius: 30px;">
+                      <input type="text" id="input" placeholder="Escribe un mensaje aquí..." style="border: none;">
+                      <div class="send" style="float:right">
+                          <img src="img/ic_send_48px.png" style="width: 28px; margin-top: -5px;">
+                        </div>
+                  </div>
+                </div>
               </div>
               <div class="swipe-tab-content live">
                 <div class="logo">
@@ -75,7 +87,9 @@
           <script type="text/javascript" src="js/swipe_tabs.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/player.js"></script>
-        <script type="text/javascript" src="js/social_sharing.js"></script>
+        <script src="http://cdn.pubnub.com/pubnub.min.js"></script>
+        <script type="text/javascript" src="js/chat.js"></script>
+        <script type="text/javascript" src="js/utils.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script>
           $(document).ready(function () {
@@ -86,6 +100,14 @@
             // Activate the second tab header
             $('.swipe-tab[data-slick-index="1"]').addClass('slick-current, active-tab');
           });
+
+          $(window).scroll(function () {
+              var sticky = $('.sub-header'),
+                scroll = $(window).scrollTop();
+
+              if (scroll >= 100) sticky.addClass('fixed');
+              else sticky.removeClass('fixed');
+            });
         </script>
     </body>
 </html>
