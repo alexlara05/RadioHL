@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
-        "source": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
-    },
-    {
         "merged": "C:\\Users\\DELL1\\Desktop\\Phonegap\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
         "source": "C:\\Users\\DELL1\\Desktop\\Phonegap\\Camara809fm\\radiohl\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
     },
     {
         "merged": "C:\\Users\\DELL1\\Desktop\\Phonegap\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
     },
     {
-        "merged": "C:\\Users\\DELL1\\Desktop\\Phonegap\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
-        "source": "C:\\Users\\DELL1\\Desktop\\Phonegap\\Camara809fm\\radiohl\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
-    },
-    {
         "merged": "C:\\Users\\DELL1\\Desktop\\Phonegap\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
         "source": "C:\\Users\\DELL1\\Desktop\\Phonegap\\Camara809fm\\radiohl\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL1\\Desktop\\Phonegap\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\DELL1\\Desktop\\Phonegap\\Camara809fm\\radiohl\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",

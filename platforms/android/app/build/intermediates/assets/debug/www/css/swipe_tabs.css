@@ -52,12 +52,15 @@
     padding: 20px;
   }
 
+  /*
   .slick-track{
     display: flex !important;
     align-items: flex-end;
   }
-
+*/
   .fixed {
     position: fixed;
     top:0; left:0;
-    width: 100%; }
+    width: 100%;
+    z-index: 999999;
+  }

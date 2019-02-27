@@ -18,7 +18,6 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
-        <preference name="Orientation" value="portrait" />
         <preference name="android-minSdkVersion" value="19" />
     </platform>
     <platform name="ios">

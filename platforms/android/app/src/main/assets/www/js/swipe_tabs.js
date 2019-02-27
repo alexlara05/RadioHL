@@ -14,9 +14,12 @@ $(function () {
         currentIndex = slick.getCurrent();
         $swipeTabs.removeClass(activeTabClassName);
            $('.swipe-tab[data-slick-index=' + currentIndex + ']').addClass(activeTabClassName);
+
+           fixContent(currentIndex)
     });
 
-    $swipeTabsContainer.slick({
+    // Tabs Header
+    $swipeTabsContainer.slick({ 
         //slidesToShow: 3.25,
         initialSlide: 0,
         slidesToShow: 3,
@@ -27,6 +30,7 @@ $(function () {
         touchThreshold: 10
     });
 
+    // Tabs Content
     $swipeTabsContentContainer.slick({
         asNavFor: $swipeTabsContainer,
         initialSlide: 1, // Set the initial tab
@@ -47,6 +51,8 @@ $(function () {
         $('.swipe-tab[data-slick-index=' + currentIndex +']').addClass(activeTabClassName);
         $swipeTabsContainer.slick('slickGoTo', currentIndex);
         $swipeTabsContentContainer.slick('slickGoTo', currentIndex);
+
+        fixContent(currentIndex)
     });
 
     //initializes slick navigation tabs swipe handler
@@ -54,5 +60,19 @@ $(function () {
         currentIndex = $(this).slick('slickCurrentSlide');
         $swipeTabs.removeClass(activeTabClassName);
         $('.swipe-tab[data-slick-index=' + currentIndex + ']').addClass(activeTabClassName);
+
+        fixContent(currentIndex)
     });
 });
+
+// Fix the content on tab change
+function fixContent(currentIndex) {
+    var chatInput = $('.chatContent');
+        if(currentIndex == 0){ // Chat tab
+            chatInput.show();
+            window.scrollTo(0, $(document).height()); // Scroll down
+        }else if(currentIndex == 1){ // Radio live streaming tab
+            chatInput.hide();
+            $(window).scrollTop(0); // Scroll top
+        }
+}

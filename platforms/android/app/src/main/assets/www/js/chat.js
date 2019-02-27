@@ -20,10 +20,21 @@
             var t = e[1];
             var d = new Date(t/10000);
             var localeDateTime = d.toLocaleString('en');
-
-           // $('#output').append(html);
-
-            window.scrollTo(0, $(document).height());
+            var html = '';
+            if(m.text != undefined && m.name != undefined){
+                html += '<div class="user">';
+                html += '<img class="user_avatar" src="'+m.photo+'">';
+                html += '<div class="user_name">'+m.name+'</div>';
+                html += '</div>';
+                
+                html += '<div class="chat_text_bubble">';
+                    html += '<div class="message_text">'+m.text+'</div>';
+                    html += '<div class="message_date">'+localeDateTime+'</div>';
+                    html += '<div style="clear:both"></div>'
+                html += '</div>';
+                $('#output').append(html);
+                window.scrollTo(0,$(document).height());
+            }
         },
         presence: function(m){
             if(m.occupancy > 1) {
@@ -42,43 +53,92 @@
 
     // Send message
     function publish() {
-        p.publish({
-            channel : channel, 
-            message : {
-                avatar: 'https://nellyrac.com/img/UserNoSign.png', 
-                text: input.value
-            }, 
-            x : (input.value='')
-        },
-        function(status, response){
-                if (status.error) {
-                // handle error
-                    console.log(status)
-                } else {
-                    console.log("Mensaje publicado")
-                }
-            }   
-        );
+        var lsName = localStorage.getItem('ls_user_name');
+        // If input has text
+        if(input.value.trim() != '' && lsName != ''){
+            p.publish({
+                channel : channel, 
+                message : {
+                    uid: localStorage.getItem('ls_user_id'),
+                    ucolor: localStorage.getItem('ls_user_color'),
+                    name: lsName,
+                    photo: localStorage.getItem('ls_user_photo'), 
+                    text: input.value
+                }, 
+                x : (input.value='')
+            },
+            function(status, response){
+                    if (status.error) {
+                    // handle error
+                        console.log(status)
+                    } else {
+                        console.log("Mensaje publicado")
+                    }
+                }   
+            );
+        }
     }
 
     // Get messages
     p.history({ channel: channel }, function (result) {
-        var wSize = windowSize();
       if (status.error) {
         console.log("history call failed -> ", status);
       } else {
         var t = result[1];
             var d = new Date(t/10000);
             var localeDateTime = d.toLocaleString();
-
+        var html = '';
         result[0].forEach(function (m, index) {
-          
-           // $('#output').append(html);
-            window.scrollTo(0,$(document).height());
+            if(m.text != undefined && m.name != undefined){
+                html += '<div class="user">';
+                html += '<img class="user_avatar" src="'+m.photo+'">';
+                html += '<div class="user_name">'+m.name+'</div>';
+                html += '</div>';
+                
+                html += '<div class="chat_text_bubble">';
+                    html += '<div class="message_text">'+m.text+'</div>';
+                    html += '<div class="message_date">'+localeDateTime+'</div>';
+                    html += '<div style="clear:both"></div>'
+                html += '</div>';
+                $('#output').append(html);
+                window.scrollTo(0,$(document).height());
+            }
         });
 
-        
       }
     });
 
 })();
+
+$('#input').focus(function() {
+    var ls_user_name = localStorage.getItem('ls_user_name');
+    var ls_uid = localStorage.getItem('ls_uid');
+    if(ls_user_name == undefined && ls_uid == undefined){
+      $('.profile_page_container').show("slow");
+    }
+  });
+
+  // Go back localStorage profile info chat
+  $('.go_gack').click(function() {
+    $('.profile_page_container').hide("slow");
+  });
+
+  // Acept button localStorage profile info chat
+  $('.ls_acept').click(function() {
+      var userInput =  $('#user_name');
+      var userInputPhoto =  $('#user_photo');
+      if(userInput.val().trim() != ''){
+        localStorage.setItem('ls_user_name', userInput.val().trim());
+        localStorage.setItem('ls_user_photo', userInputPhoto.val().trim());
+        localStorage.setItem('ls_user_id', uuidv4());
+        localStorage.setItem('ls_user_color', getRandomColor());
+        $('.profile_page_container').hide("slow");
+      }
+  });
+
+  // Update name and photo
+  $('#change_name').click(function() {
+    $('.profile_page_container').show("slow");
+    $('#user_name').val(localStorage.getItem('ls_user_name'));
+    $('#user_photo').val(localStorage.getItem('ls_user_photo'));
+  });

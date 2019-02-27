@@ -51,20 +51,8 @@
         </div>
           <div class="main-container">
             <div class="swipe-tabs-container ">
-              <div class="swipe-tab-content chat">
+              <div class="swipe-tab-content chat" style="padding-bottom: 65px;">
                 <div id="output"></div>
-                <div class="chatContent">
-                  <div id="chat">
-                    <p id="presence" style="color: red;"></p>
-                    <a href="#" id="button" class="boton"><i class="fa fa-paper-plane" aria-hidden="true"></i>Enviar</a>
-                  </div>
-                  <div class="chat-controls" style="padding: 15px; background: #fff; border-radius: 30px;">
-                      <input type="text" id="input" placeholder="Escribe un mensaje aquí..." style="border: none;">
-                      <div class="send" style="float:right">
-                          <img src="img/ic_send_48px.png" style="width: 28px; margin-top: -5px;">
-                        </div>
-                  </div>
-                </div>
               </div>
               <div class="swipe-tab-content live">
                 <div class="logo">
@@ -75,7 +63,8 @@
                   <p class="song">Tory Lanez & Rich The Kid</p>
                 </div>
                 <div class="player_controls">
-                  <img src="img/share_button.png" class="share" alt="Share" onclick="window.plugins.socialsharing.share('Estoy escuchando CAMARA 809 FM. La emisora digital mas potente del globo. Descargala app desde Play store. ', null, null, 'https://play.google.com/store/apps/details?id=info.hectorlara.fugafmapp')">
+                  <img src="img/share_button.png" class="share" alt="Share"
+                    onclick="window.plugins.socialsharing.share('Estoy escuchando CAMARA 809 FM. La emisora digital mas potente del globo. Descargala app desde Play store. ', null, null, 'https://play.google.com/store/apps/details?id=info.hectorlara.fugafmapp')">
                   <img src="img/play_button.png" class="play" alt="Play">
                   <img src="img/love_button.png" class="rate" alt="Rate">
                 </div>
@@ -83,8 +72,38 @@
               </div>
               <div class="swipe-tab-content">News tab</div>
             </div>
+            <!-- Se muestra en todas las tabs y es fixed. solo para el chat. trabajar con javascript -->
+            <div class="chatContent">
+                <div id="chat">
+                  <img id="change_name" src="img/love_button.png" style="width: 18px;margin-right: 10px;">
+                  <p id="presence" style="color: red;"></p>
+                </div>
+                <div class="chat-controls">
+                  <input type="text" id="input" placeholder="Escribe un mensaje aquí..." style="border: none;">
+                  <div class="send" style="float:right">
+                    <img src="img/ic_send_48px.png" alt="Enviar" id="button" style="width: 28px; margin-top: -5px;">
+                  </div>
+                </div>
+              </div>
+              <!-- FIN -->
           </div>
-          <script type="text/javascript" src="js/swipe_tabs.js"></script>
+          <div class="profile_page_container" style="display:none">
+            <div class="app_header">
+              <span class="go_gack" style="float:left"><img src="img/arrow_left.png" style="width: 26px;margin: -5px 0;">  Información de perfil</span>
+              <span style="float:right" class="ls_acept">Aceptar</span>
+              <div style="clear:both"></div>
+            </div>
+            <div class="profile_page_inner">
+              <div style="text-align:center">
+                  <img src="img/no_photo.png" class="lsphoto" alt="NoPhoto" style="width: 100px;">
+              </div>
+                <p>Escribe tu nombre para identificar tus mensajes en el chat.</p>
+                <input type="text" class="profile_input" id="user_name" placeholder="Escribe tu nombre">
+                <p><strong>Soy un usuario avanzado : </strong> Puedes usar una foto de perfil. Pega la ruta en el campo url. Debe estar alojada en un servidor externo. Deja en blanco si no estas seguro.</p>
+                <input type="text" class="profile_input" id="user_photo" placeholder="Url photo">
+            </div>
+          </div>
+        <script type="text/javascript" src="js/swipe_tabs.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/player.js"></script>
         <script src="http://cdn.pubnub.com/pubnub.min.js"></script>
@@ -101,13 +120,19 @@
             $('.swipe-tab[data-slick-index="1"]').addClass('slick-current, active-tab');
           });
 
-          $(window).scroll(function () {
+          $(window).scroll(function () { // Set static (Fixed) header on scroll
               var sticky = $('.sub-header'),
                 scroll = $(window).scrollTop();
 
               if (scroll >= 100) sticky.addClass('fixed');
               else sticky.removeClass('fixed');
             });
+
+            setTimeout(function() { // Hide chat text input
+              $(window).scrollTop(0);
+              $('.chatContent').hide()
+            }, 1000);
+
         </script>
     </body>
 </html>

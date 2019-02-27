@@ -54,6 +54,5 @@
     <preference name="loglevel" value="DEBUG" />
     <preference name="KeepRunning" value="true" />
     <preference name="AndroidLaunchMode" value="singleInstance" />
-    <preference name="Orientation" value="portrait" />
     <preference name="android-minSdkVersion" value="19" />
 </widget>
