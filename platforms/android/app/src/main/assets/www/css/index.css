@@ -178,8 +178,9 @@ img[alt="Play"]{
     color: #838690;
 }
 .user_avatar{
-    width: 36px;
+    width: 34px;
     margin-right: 5px;
+    border-radius: 50%;
 }
 .user{
     display: flex;
@@ -211,6 +212,8 @@ img[alt="Play"]{
 .user_name{
     font-weight: bold;
     font-size: 13px;
+    text-shadow: 1px 1px 10px #ffffff;
+    text-transform: uppercase;
 }
 .profile_page_container{
     background: #eaeaea;

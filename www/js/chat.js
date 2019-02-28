@@ -20,16 +20,17 @@
             var t = e[1];
             var d = new Date(t/10000);
             var localeDateTime = d.toLocaleString('en');
+            var messageHour = localeDateTime.split(',')[1];
             var html = '';
             if(m.text != undefined && m.name != undefined){
                 html += '<div class="user">';
-                html += '<img class="user_avatar" src="'+m.photo+'">';
-                html += '<div class="user_name">'+m.name+'</div>';
+                html += '<img class="user_avatar" src="'+(m.photo != '' && m.photo != undefined ? m.photo : 'img/no_photo.png')+'">';
+                html += '<div class="user_name" style="color:'+m.ucolor+'">'+m.name+'</div>';
                 html += '</div>';
                 
                 html += '<div class="chat_text_bubble">';
                     html += '<div class="message_text">'+m.text+'</div>';
-                    html += '<div class="message_date">'+localeDateTime+'</div>';
+                    html += '<div class="message_date">hoy'+messageHour+'</div>';
                     html += '<div style="clear:both"></div>'
                 html += '</div>';
                 $('#output').append(html);
@@ -80,28 +81,37 @@
     }
 
     // Get messages
-    p.history({ channel: channel }, function (result) {
+    p.history({ channel: channel, include_token: true }, function (result) {
       if (status.error) {
         console.log("history call failed -> ", status);
       } else {
-        var t = result[1];
-            var d = new Date(t/10000);
-            var localeDateTime = d.toLocaleString();
-        var html = '';
         result[0].forEach(function (m, index) {
-            if(m.text != undefined && m.name != undefined){
-                html += '<div class="user">';
-                html += '<img class="user_avatar" src="'+m.photo+'">';
-                html += '<div class="user_name">'+m.name+'</div>';
-                html += '</div>';
-                
-                html += '<div class="chat_text_bubble">';
-                    html += '<div class="message_text">'+m.text+'</div>';
-                    html += '<div class="message_date">'+localeDateTime+'</div>';
-                    html += '<div style="clear:both"></div>'
-                html += '</div>';
-                $('#output').append(html);
-                window.scrollTo(0,$(document).height());
+            if(m.message.text != undefined && m.message.name != undefined){
+                var html = '';
+                var t = m.timetoken;
+                var d = new Date(t/10000);
+                var localeDateTime = d.toLocaleString('en');
+                let todayDate = new Date().toLocaleDateString('en');
+                $today = new Date();
+                $yesterday = new Date($today);
+                $yesterday.setDate($today.getDate() - 1);
+                let yesterdayDate = $yesterday.toLocaleDateString();
+    
+                if(m.message.text != undefined && m.message.name != undefined){
+                    html += '<div class="user">';
+                    html += '<img class="user_avatar" src="'+m.message.photo+'">';
+                    html += '<div class="user_name" style="color:'+m.message.ucolor+'">'+m.message.name+'</div>';
+                    html += '</div>';
+                    var messageDate = localeDateTime.split(',')[0];
+                    var messageHour = localeDateTime.split(',')[1];
+                    html += '<div class="chat_text_bubble">';
+                        html += '<div class="message_text">'+m.message.text+'</div>';
+                        html += '<div class="message_date">'+(messageDate == todayDate ? 'hoy'+ messageHour : (messageDate == yesterdayDate ? 'ayer' + messageHour : localeDateTime))+'</div>';
+                        html += '<div style="clear:both"></div>'
+                    html += '</div>';
+                    $('#output').append(html);
+                    window.scrollTo(0,$(document).height());
+                }
             }
         });
 
@@ -137,7 +147,7 @@ $('#input').focus(function() {
   });
 
   // Update name and photo
-  $('#change_name').click(function() {
+  $('.change_name').click(function() {
     $('.profile_page_container').show("slow");
     $('#user_name').val(localStorage.getItem('ls_user_name'));
     $('#user_photo').val(localStorage.getItem('ls_user_photo'));
