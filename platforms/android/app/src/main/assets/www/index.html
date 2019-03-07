@@ -75,7 +75,7 @@
             <!-- Se muestra en todas las tabs y es fixed. solo para el chat. trabajar con javascript -->
             <div class="chatContent">
                 <div id="chat" class="change_name">
-                  <img src="img/love_button.png" style="width: 18px;margin-right: 10px;">
+                  <img src="img/no_photo_profile_settings.png" style="width: 18px;margin-right: 10px;">
                   <p id="presence" style="color: red;"></p>
                 </div>
                 <div class="chat-controls">
@@ -127,11 +127,6 @@
               if (scroll >= 100) sticky.addClass('fixed');
               else sticky.removeClass('fixed');
             });
-
-            setTimeout(function() { // Hide chat text input
-              $(window).scrollTop(0);
-              $('.chatContent').hide()
-            }, 1000);
 
         </script>
     </body>

@@ -31,6 +31,13 @@
     },
     "cordova-plugin-music-controls": {
       "PACKAGE_NAME": "tk.hectorlara.radiohl"
+    },
+    "cordova-plugin-google-analytics": {
+      "GMS_VERSION": "11.0.1",
+      "PACKAGE_NAME": "tk.hectorlara.radiohl"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "tk.hectorlara.radiohl"
     }
   },
   "dependent_plugins": {

@@ -28,7 +28,7 @@
                 html += '<div class="user_name" style="color:'+m.ucolor+'">'+m.name+'</div>';
                 html += '</div>';
                 
-                html += '<div class="chat_text_bubble">';
+                html += '<div class="chat_text_bubble" style="background: #f7c9c9;">';
                     html += '<div class="message_text">'+m.text+'</div>';
                     html += '<div class="message_date">hoy'+messageHour+'</div>';
                     html += '<div style="clear:both"></div>'
@@ -55,6 +55,7 @@
     // Send message
     function publish() {
         var lsName = localStorage.getItem('ls_user_name');
+        var lsPhoto = localStorage.getItem('ls_user_photo');
         // If input has text
         if(input.value.trim() != '' && lsName != ''){
             p.publish({
@@ -63,7 +64,7 @@
                     uid: localStorage.getItem('ls_user_id'),
                     ucolor: localStorage.getItem('ls_user_color'),
                     name: lsName,
-                    photo: localStorage.getItem('ls_user_photo'), 
+                    photo: (lsPhoto != '' && lsPhoto != undefined ? lsPhoto : 'img/no_photo.png'), 
                     text: input.value
                 }, 
                 x : (input.value='')
@@ -88,7 +89,6 @@
         result[0].forEach(function (m, index) {
             if(m.message.text != undefined && m.message.name != undefined){
                 var html = '';
-                console.log(index);
                 var t = m.timetoken;
                 var d = new Date(t/10000);
                 var localeDateTime = d.toLocaleString('en');
@@ -105,7 +105,7 @@
                     html += '</div>';
                     var messageDate = localeDateTime.split(',')[0];
                     var messageHour = localeDateTime.split(',')[1];
-                    html += '<div class="chat_text_bubble">';
+                    html += '<div class="chat_text_bubble" style="'+(m.message.uid == localStorage.getItem('ls_user_id') ? 'background: #f7c9c9;' : '')+'">';
                         html += '<div class="message_text">'+m.message.text+'</div>';
                         html += '<div class="message_date">'+(messageDate == todayDate ? 'hoy'+ messageHour : (messageDate == yesterdayDate ? 'ayer' + messageHour : localeDateTime))+'</div>';
                         html += '<div style="clear:both"></div>'
@@ -120,6 +120,11 @@
     });
 
 })();
+
+setTimeout(function() { // Hide chat text input
+    $(window).scrollTop(0);
+    $('.chatContent').hide()
+  }, 800);
 
 $('#input').focus(function() {
     var ls_user_name = localStorage.getItem('ls_user_name');
@@ -139,10 +144,15 @@ $('#input').focus(function() {
       var userInput =  $('#user_name');
       var userInputPhoto =  $('#user_photo');
       if(userInput.val().trim() != ''){
+        if(localStorage.getItem('ls_user_id') == '' || localStorage.getItem('ls_user_id') == undefined){
+            localStorage.setItem('ls_user_id', uuidv4());
+        }
+        
+        if(localStorage.getItem('ls_user_name') != userInput.val().trim()){
+            localStorage.setItem('ls_user_color', getRandomColor()); 
+        }
         localStorage.setItem('ls_user_name', userInput.val().trim());
         localStorage.setItem('ls_user_photo', userInputPhoto.val().trim());
-        localStorage.setItem('ls_user_id', uuidv4());
-        localStorage.setItem('ls_user_color', getRandomColor());
         $('.profile_page_container').hide("slow");
       }
   });

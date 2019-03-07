@@ -26,16 +26,25 @@ var app = {
     //
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
-    onDeviceReady: function() {
+    onDeviceReady: function(jsonData) {
         this.receivedEvent('deviceready');
         playAudio("http://iws1.radioonlinehd.com:9966/stream");
+
+        // Push notifications 
+          window.plugins.OneSignal
+            .startInit("b21b0835-850c-459a-8054-a97d408ff4da")
+            .handleNotificationOpened(notificationOpenedCallback)
+            .endInit();
     },
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
         console.log('Received Event: ' + id);
     }
+};
+
+var notificationOpenedCallback = function (jsonData) {
+    console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
 };
 
 app.initialize();

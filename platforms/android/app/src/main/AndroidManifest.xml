@@ -19,6 +19,27 @@
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/sharing_paths" />
         </provider>
         <service android:name="com.homerours.musiccontrols.MusicControlsNotificationKiller" />
+        <receiver android:enabled="true" android:name="com.google.android.gms.analytics.AnalyticsReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService" />
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.analytics.CampaignTrackingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+        <amazon:enable-feature android:name="com.amazon.device.messaging" android:required="false" xmlns:amazon="http://schemas.amazon.com/apk/res/android" />
+        <service android:exported="false" android:name="com.onesignal.ADMMessageHandler" />
+        <receiver android:name="com.onesignal.ADMMessageHandler$Receiver" android:permission="com.amazon.device.messaging.permission.SEND">
+            <intent-filter>
+                <action android:name="com.amazon.device.messaging.intent.REGISTRATION" />
+                <action android:name="com.amazon.device.messaging.intent.RECEIVE" />
+                <category android:name="tk.hectorlara.radiohl" />
+            </intent-filter>
+        </receiver>
     </application>
     <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -28,4 +49,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE" />
+    <permission android:name="tk.hectorlara.radiohl.permission.RECEIVE_ADM_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="tk.hectorlara.radiohl.permission.RECEIVE_ADM_MESSAGE" />
 </manifest>

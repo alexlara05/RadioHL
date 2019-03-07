@@ -34,5 +34,9 @@
     </plugin>
     <plugin name="cordova-plugin-music-controls" spec="https://github.com/homerours/cordova-music-controls-plugin" />
     <icon src="www/img/logo.png" />
-    <engine name="android" spec="^7.1.4" />
+    <plugin name="cordova-plugin-google-analytics" spec="^1.8.6">
+        <variable name="GMS_VERSION" value="11.0.1" />
+    </plugin>
+    <plugin name="onesignal-cordova-plugin" spec="2.4.6" />
+    <engine name="android" spec="7.1.4" />
 </widget>

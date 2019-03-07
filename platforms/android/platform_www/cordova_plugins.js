@@ -261,6 +261,23 @@ module.exports = [
     "clobbers": [
       "MusicControls"
     ]
+  },
+  {
+    "id": "cordova-plugin-google-analytics.UniversalAnalytics",
+    "file": "plugins/cordova-plugin-google-analytics/www/analytics.js",
+    "pluginId": "cordova-plugin-google-analytics",
+    "clobbers": [
+      "analytics",
+      "ga"
+    ]
+  },
+  {
+    "id": "onesignal-cordova-plugin.OneSignal",
+    "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
+    "pluginId": "onesignal-cordova-plugin",
+    "clobbers": [
+      "OneSignal"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -276,7 +293,9 @@ module.exports.metadata =
   "cordova-plugin-background-mode": "0.7.2",
   "es6-promise-plugin": "4.2.2",
   "cordova-plugin-x-socialsharing": "5.4.4",
-  "cordova-plugin-music-controls": "2.2.0"
+  "cordova-plugin-music-controls": "2.2.0",
+  "cordova-plugin-google-analytics": "1.8.6",
+  "onesignal-cordova-plugin": "2.4.6"
 };
 // BOTTOM OF METADATA
 });
