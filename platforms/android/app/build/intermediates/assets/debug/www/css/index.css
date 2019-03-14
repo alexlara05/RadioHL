@@ -236,3 +236,74 @@ img[alt="Play"]{
     height: 36px;
     padding: 0 10px;
 }
+.post{
+    background: #fff;
+    border-radius: 7px;
+    color: #5d4f4f;
+    margin-bottom: 15px;
+}
+.post_img_iframe img, .post_img_iframe iframe{
+    width: 100%;
+    height: auto;
+    border-radius: 7px 7px 0 0;
+    margin-top: 10px;
+}
+.post_title {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.post_body{
+    font-size: 15px;
+    padding: 10px;
+}
+.post_author{
+    padding: 0 10px;
+}
+.author{
+    float: left;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.name{
+    font-weight: 400;
+    font-size: 12px;
+}
+.post_date{
+    padding-top: 10px;
+    float: right;
+}
+.author img{
+    width: 24px;
+    float: left;
+    margin-right: 5px;
+}
+.author .name{
+    margin-top: 5px
+}
+
+/* SHOW READ MORE READ LESS */
+.addReadMore.showlesscontent .SecSec,
+.addReadMore.showlesscontent .readLess {
+    display: none;
+}
+
+.addReadMore.showmorecontent .readMore {
+    display: none;
+}
+
+.addReadMore .readMore,
+.addReadMore .readLess {
+    font-weight: bold;
+    margin-left: 2px;
+    color: #b14343;
+    cursor: pointer;
+}
+
+.addReadMoreWrapTxt.showmorecontent .SecSec,
+.addReadMoreWrapTxt.showmorecontent .readLess {
+    display: block;
+}
+/* END SHOW READ MORE READ LESS */
