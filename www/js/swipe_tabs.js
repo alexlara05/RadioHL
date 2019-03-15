@@ -71,7 +71,7 @@ function fixContent(currentIndex) {
         if(currentIndex == 0){ // Chat tab
             chatInput.show();
             //window.scrollTo(0, $(document).height()); // Scroll down slick-active
-            window.scrollTo(0, $('.slick-active').height()+350); // pixeles extra para que los ultimos msg no los tape el chat input
+            window.scrollTo(0, $('.slick-active #output').height() - 400); // pixeles extra para que los ultimos msg no los tape el chat input
         }else if(currentIndex == 1 || currentIndex == 2){ // Radio live streaming tab
             chatInput.hide();
             $(window).scrollTop(0); // Scroll top
