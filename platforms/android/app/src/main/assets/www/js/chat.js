@@ -34,7 +34,7 @@
                     html += '<div style="clear:both"></div>'
                 html += '</div>';
                 $('#output').append(html);
-                window.scrollTo(0,$(document).height());
+                window.scrollTo(0,$('.slick-active').height());
             }
         },
         presence: function(m){
@@ -111,7 +111,7 @@
                         html += '<div style="clear:both"></div>'
                     html += '</div>';
                     $('#output').append(html);
-                    window.scrollTo(0,$(document).height());
+                    window.scrollTo(0,$('.slick-active').height());
                 }
             }
         });

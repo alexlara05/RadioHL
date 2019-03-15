@@ -37,7 +37,7 @@ function getRandomColor() {
         if ($(this).find(".firstSec").length)
             return;
  
-        var allstr = $(this).text();
+        var allstr = $(this).html();
         if (allstr.length > carLmt) {
             var firstSet = allstr.substring(0, carLmt);
             var secdHalf = allstr.substring(carLmt, allstr.length);
@@ -47,7 +47,7 @@ function getRandomColor() {
  
     });
     //Read More and Read Less Click Event binding
-    $(document).on("click", ".readMore,.readLess", function() {
+    $(".readMore,.readLess").click(function() {
         $(this).closest(".addReadMore").toggleClass("showlesscontent showmorecontent");
     });
 }

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Mar 14 15:58:55 PDT 2019
+#Thu Mar 14 23:14:12 PDT 2019
 56.path=www/logo_for_music_controls.png
 5.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 42.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
