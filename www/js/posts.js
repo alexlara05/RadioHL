@@ -73,4 +73,13 @@ var config = {
     });
   }
 
-  getPosts()
+  function getAds() {
+    var adsRef = db.ref("ads/1");
+    adsRef.on("value", function(snapshot){
+      $('.ads').empty();
+      var ads = snapshot.val();
+      $('.ads').append(ads.body.trim());
+    });
+  }
+  getPosts();
+  getAds()
