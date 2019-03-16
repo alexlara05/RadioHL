@@ -28,7 +28,7 @@
                 html += '<div class="user_name" style="color:'+m.ucolor+'">'+m.name+'</div>';
                 html += '</div>';
                 
-                html += '<div class="chat_text_bubble" style="background: #f7c9c9;">';
+                html += '<div class="chat_text_bubble" style="'+(m.uid == localStorage.getItem('ls_user_id') ? 'background: #f7c9c9;' : '')+'">';
                     html += '<div class="message_text">'+m.text+'</div>';
                     html += '<div class="message_date">hoy'+messageHour+'</div>';
                     html += '<div style="clear:both"></div>'

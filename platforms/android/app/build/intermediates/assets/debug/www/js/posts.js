@@ -76,7 +76,7 @@ var config = {
   function getAds() {
     var adsRef = db.ref("ads/1");
     adsRef.on("value", function(snapshot){
-      $('.ads').empty();
+      $('.ads').empty();0
       var ads = snapshot.val();
       $('.ads').append(ads.body.trim());
     });
