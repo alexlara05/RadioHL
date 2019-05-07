@@ -267,7 +267,6 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     compile "com.android.support:support-v4:24.1.1+"
-    compile "com.google.android.gms:play-services-analytics:11.0.1"
     compile "com.onesignal:OneSignal:3.10.5"
     // SUB-PROJECT DEPENDENCIES END
 }

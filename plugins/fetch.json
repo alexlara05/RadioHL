@@ -50,7 +50,7 @@
   "cordova-plugin-background-mode": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-background-mode"
+      "id": "cordova-plugin-background-mode@^0.7.2"
     },
     "is_top_level": true,
     "variables": {}
@@ -87,20 +87,28 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-google-analytics": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-google-analytics@^1.8.6"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "onesignal-cordova-plugin": {
     "source": {
       "type": "registry",
       "id": "onesignal-cordova-plugin"
     },
     "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-connectivity-monitor": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-connectivity-monitor"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-play-services-version-adapter": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-play-services-version-adapter"
+    },
+    "is_top_level": false,
     "variables": {}
   }
 }

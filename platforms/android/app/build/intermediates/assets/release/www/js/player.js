@@ -118,7 +118,7 @@ function songInfoMessage(messages) {
 function setMusicControls() {
     // Music controls show player on status bar
     MusicControls.create({
-        track : 'CAMARA 809 FM',
+        track : 'ELOHIM RADIO',
         artist      : 'Transmisión en vivo',
         cover       : 'logo_for_music_controls.png',
         isPlaying   : true,

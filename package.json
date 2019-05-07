@@ -14,7 +14,6 @@
         "cordova-plugin-background-mode": "^0.7.2",
         "cordova-plugin-device": "^2.0.2",
         "cordova-plugin-file": "^6.0.1",
-        "cordova-plugin-google-analytics": "^1.8.6",
         "cordova-plugin-inappbrowser": "^3.0.0",
         "cordova-plugin-media": "^5.0.2",
         "cordova-plugin-music-controls": "git+https://github.com/homerours/cordova-music-controls-plugin.git",
@@ -37,9 +36,6 @@
                 "ANDROID_SUPPORT_V4_VERSION": "24.1.1+"
             },
             "cordova-plugin-music-controls": {},
-            "cordova-plugin-google-analytics": {
-                "GMS_VERSION": "11.0.1"
-            },
             "onesignal-cordova-plugin": {}
         },
         "platforms": [

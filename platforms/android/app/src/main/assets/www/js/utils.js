@@ -52,6 +52,30 @@ function getRandomColor() {
     });
 }
 
+function runAppInBackground() {
+    cordova.plugins.backgroundMode.setDefaults({
+        title: 'Elohim Radio',
+        text: 'Alabando Al Rey',
+        icon: 'icon', // this will look for icon.png in platforms/android/res/drawable|mipmap
+        color: 'ed0003', // hex format like 'F14F4D'
+        resume: true,
+        silent: true 
+    });
+
+    cordova.plugins.backgroundMode.enable();
+   // cordova.plugins.backgroundMode.overrideBackButton();
+
+    cordova.plugins.backgroundMode.overrideBackButton();
+    
+    cordova.plugins.backgroundMode.on('activate', function () {
+        cordova.plugins.backgroundMode.disableWebViewOptimizations();
+    });
+
+    cordova.plugins.backgroundMode.on('deactivate', function () {
+        //cordova.plugins.notification.badge.clear();
+    });
+}
+
 //$(function() {
     //Calling function after Page Load
   //  AddReadMore();

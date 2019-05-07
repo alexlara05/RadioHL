@@ -278,6 +278,23 @@ module.exports = [
     "clobbers": [
       "OneSignal"
     ]
+  },
+  {
+    "id": "cordova-connectivity-monitor.connectivity",
+    "file": "plugins/cordova-connectivity-monitor/www/connectivity.js",
+    "pluginId": "cordova-connectivity-monitor",
+    "clobbers": [
+      "window.connectivity"
+    ]
+  },
+  {
+    "id": "cordova-admob.AdMobAds",
+    "file": "plugins/cordova-admob/www/admob.js",
+    "pluginId": "cordova-admob",
+    "clobbers": [
+      "window.admob",
+      "window.tappx"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -295,7 +312,10 @@ module.exports.metadata =
   "cordova-plugin-x-socialsharing": "5.4.4",
   "cordova-plugin-music-controls": "2.2.0",
   "cordova-plugin-google-analytics": "1.8.6",
-  "onesignal-cordova-plugin": "2.4.6"
+  "onesignal-cordova-plugin": "2.4.6",
+  "cordova-connectivity-monitor": "1.2.2",
+  "cordova-play-services-version-adapter": "1.0.2",
+  "cordova-admob": "5.1.0"
 };
 // BOTTOM OF METADATA
 });

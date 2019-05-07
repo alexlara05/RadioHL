@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="tk.hectorlara.radiohl" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Camara 809 FM</name>
+<widget id="tk.hectorlara.elohimradio" version="1.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Elohim Radio</name>
     <description>
         RadioHL App for modern radiostations
     </description>
@@ -36,9 +36,6 @@
     </plugin>
     <plugin name="cordova-plugin-music-controls" spec="https://github.com/homerours/cordova-music-controls-plugin" />
     <icon src="www/img/logo.png" />
-    <plugin name="cordova-plugin-google-analytics" spec="^1.8.6">
-        <variable name="GMS_VERSION" value="11.0.1" />
-    </plugin>
     <plugin name="onesignal-cordova-plugin" spec="2.4.6" />
     <engine name="android" spec="7.1.4" />
 </widget>

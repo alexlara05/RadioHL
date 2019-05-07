@@ -1,11 +1,12 @@
 // Play audio
 //
+var serverUrl = playAudio("http://178.32.62.172:8067/stream");
 var my_media = null;
 function playAudio(url) {
 
     if (my_media == null) {
         // Play the audio file at url
-        var my_media = new Media(url,
+        my_media = new Media(url,
             // success callback
             onSuccess,
             // error callback
@@ -61,7 +62,7 @@ function playAudio(url) {
 function status_change(code) {
     switch (code) {
         case 0: // None
-            console.log(code)
+            console.log("Error caso 0"+code)
             break;
         case 1: // starting
         $('.play').attr('src', 'img/loader.gif');
@@ -80,17 +81,16 @@ function status_change(code) {
         case 3: // Paused
         $('.play').attr('src', 'img/play_button.png');
         playerStatusTittle("Detenido");
-        console.log('Paused')
             break;
         case 4:  // Stoped
         $('.play').attr('src', 'img/play_button.png');
         playerStatusTittle("Detenido");
-            console.log(code)
             break;    
     
         default:
             break;
     }
+
 }
 
 function onSuccess() { 
@@ -118,7 +118,7 @@ function songInfoMessage(messages) {
 function setMusicControls() {
     // Music controls show player on status bar
     MusicControls.create({
-        track : 'CAMARA 809 FM',
+        track : 'ELOHIM RADIO',
         artist      : 'Transmisión en vivo',
         cover       : 'logo_for_music_controls.png',
         isPlaying   : true,
@@ -140,7 +140,6 @@ function setMusicControls() {
     MusicControls.listen();
 }
 function events(action) {
- 
     const message = JSON.parse(action).message;
       switch(message) {
           case 'music-controls-next':
@@ -152,13 +151,13 @@ function events(action) {
           case 'music-controls-pause':
           $('.play').click();
           MusicControls.updateIsPlaying(false); // toggle the play/pause notification button
-          console.log('paused press')
+          console.log('MusicControls paused pressed')
               // Do something
               break;
           case 'music-controls-play':
           $('.play').click();
           MusicControls.updateIsPlaying(true);
-          console.log('play press')
+          console.log('MusicControls play pressed')
               // Do something
               break;
           case 'music-controls-destroy':

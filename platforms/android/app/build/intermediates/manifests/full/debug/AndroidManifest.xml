@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tk.hectorlara.radiohl"
+    package="tk.hectorlara.elohimradio"
     android:hardwareAccelerated="true"
-    android:versionCode="10100"
-    android:versionName="1.1.0" >
+    android:versionCode="10101"
+    android:versionName="1.1.1" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -17,7 +17,6 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -34,10 +33,13 @@
     <uses-permission android:name="tk.hectorlara.radiohl.permission.RECEIVE_ADM_MESSAGE" />
     <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
-        android:name="tk.hectorlara.radiohl.permission.C2D_MESSAGE"
+        android:name="tk.hectorlara.elohimradio.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="tk.hectorlara.radiohl.permission.C2D_MESSAGE" />
+    <uses-permission android:name="tk.hectorlara.elohimradio.permission.C2D_MESSAGE" /> <!-- OneSignal SDK has runtime checks Android version. -->
+    <!-- <uses-sdk tools:overrideLibrary="android.support.customtabs"/> -->
+    <!-- INTERNET and c2dm RECEIVE are basic requirements for push messages through Google's GCM. -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <!--
  Required so the device vibrates on receiving a push notification.
@@ -74,7 +76,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true" >
         <activity
-            android:name="tk.hectorlara.radiohl.MainActivity"
+            android:name="tk.hectorlara.elohimradio.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
             android:label="@string/activity_name"
             android:launchMode="singleInstance"
@@ -100,7 +102,7 @@
 
         <provider
             android:name="nl.xservices.plugins.FileProvider"
-            android:authorities="tk.hectorlara.radiohl.sharing.provider"
+            android:authorities="tk.hectorlara.elohimradio.sharing.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -109,33 +111,6 @@
         </provider>
 
         <service android:name="com.homerours.musiccontrols.MusicControlsNotificationKiller" />
-
-        <receiver
-            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
-            android:enabled="true" >
-            <intent-filter>
-                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
-            </intent-filter>
-        </receiver>
-
-        <service
-            android:name="com.google.android.gms.analytics.AnalyticsService"
-            android:enabled="true"
-            android:exported="false" />
-
-        <receiver
-            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
-            android:enabled="true"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="com.android.vending.INSTALL_REFERRER" />
-            </intent-filter>
-        </receiver>
-
-        <service
-            android:name="com.google.android.gms.analytics.CampaignTrackingService"
-            android:enabled="true"
-            android:exported="false" />
 
         <amazon:enable-feature
             xmlns:amazon="http://schemas.amazon.com/apk/res/android"
@@ -172,7 +147,7 @@
             <intent-filter android:priority="999" >
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="tk.hectorlara.radiohl" />
+                <category android:name="tk.hectorlara.elohimradio" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
@@ -211,13 +186,8 @@
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
             </intent-filter>
         </receiver>
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <!--
- FirebaseMessagingService performs security checks at runtime,
+             FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
         -->
         <service
@@ -228,6 +198,11 @@
             </intent-filter>
         </service>
 
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
             android:exported="true"
@@ -235,18 +210,11 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="tk.hectorlara.radiohl" />
+                <category android:name="tk.hectorlara.elohimradio" />
             </intent-filter>
         </receiver>
         <!--
- Internal (not exported) receiver used by the app to start its own exported services
-             without risk of being spoofed.
-        -->
-        <receiver
-            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
-            android:exported="false" />
-        <!--
- FirebaseInstanceIdService performs security checks at runtime,
+             FirebaseInstanceIdService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
         -->
         <service
@@ -259,7 +227,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="tk.hectorlara.radiohl.firebaseinitprovider"
+            android:authorities="tk.hectorlara.elohimradio.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 

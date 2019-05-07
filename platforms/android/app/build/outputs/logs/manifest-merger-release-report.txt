@@ -42,7 +42,7 @@ INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platfor
 INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-55:12
 INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-55:12
 	package
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:102-133
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:102-137
 		INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -52,7 +52,7 @@ INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platfor
 	android:hardwareAccelerated
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:134-192
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:138-196
 	android:versionCode
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
 		INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml
@@ -115,7 +115,7 @@ MERGED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Alex
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
 	android:icon
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
-activity#tk.hectorlara.radiohl.MainActivity
+activity#tk.hectorlara.elohimradio.MainActivity
 ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
 	android:screenOrientation
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:6:199-235
@@ -367,7 +367,7 @@ MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\cach
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:10:9-44
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:9:9-63
-permission#tk.hectorlara.radiohl.permission.C2D_MESSAGE
+permission#tk.hectorlara.elohimradio.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:8:5-10:47
 MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:24:5-109
 MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:24:5-109
@@ -381,7 +381,7 @@ MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\cach
 MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:26:5-78
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:12:22-76
-uses-permission#tk.hectorlara.radiohl.permission.C2D_MESSAGE
+uses-permission#tk.hectorlara.elohimradio.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:26:5-78
 MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:26:5-78
@@ -487,7 +487,7 @@ intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
 ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:63:13-67:29
 	android:priority
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:63:28-50
-intent-filter#com.google.android.c2dm.intent.RECEIVE+tk.hectorlara.radiohl
+intent-filter#com.google.android.c2dm.intent.RECEIVE+tk.hectorlara.elohimradio
 ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:63:13-67:29
 	android:priority
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:63:28-50
@@ -496,6 +496,10 @@ ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transfo
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:64:25-78
 category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:66:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:66:27-58
+category#tk.hectorlara.elohimradio
 ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:66:17-61
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:66:27-58

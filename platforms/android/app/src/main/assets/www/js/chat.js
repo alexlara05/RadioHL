@@ -91,12 +91,12 @@
                 var html = '';
                 var t = m.timetoken;
                 var d = new Date(t/10000);
-                var localeDateTime = d.toLocaleString('en');
-                let todayDate = new Date().toLocaleDateString('en');
+                var localeDateTime = d.toLocaleString();
+                var todayDate = new Date().toLocaleDateString('en'); // modifique aqui
                 $today = new Date();
                 $yesterday = new Date($today);
                 $yesterday.setDate($today.getDate() - 1);
-                let yesterdayDate = $yesterday.toLocaleDateString();
+                var yesterdayDate = $yesterday.toLocaleDateString('en'); 
     
                 if(m.message.text != undefined && m.message.name != undefined){
                     html += '<div class="user">';
