@@ -18,6 +18,11 @@ var app = {
             .startInit("540d061e-1d21-4ba3-b28b-c64b8b7b85f7")
             .handleNotificationOpened(notificationOpenedCallback)
             .endInit();
+
+            runAppInBackground();
+            
+            // Register the event listener
+        document.addEventListener("backbutton", onBackKeyPressed, false);
     },
 
     // Update DOM on a Received Event
@@ -25,6 +30,10 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+function onBackKeyPressed(){
+ //alert(cordova.plugins.backgroundMode.isActive())
+}
 
 var notificationOpenedCallback = function (jsonData) {
     console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));

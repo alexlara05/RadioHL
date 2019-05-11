@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\layout-v21_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\2e804ce166a68e9fea4f4854b07f0b15\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+        "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_notification_tile_bg.xml.flat",
@@ -17,11 +17,11 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-port-xxhdpi_screen.png.flat",
@@ -29,7 +29,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_notification_icon_background.xml.flat",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\OneSignal-3.10.5.aar\\e31b91a3478744a48acaff6a5676d997\\res\\raw\\consumer_onesignal_keep.xml"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+        "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_notification_media_action.xml.flat",
@@ -61,7 +61,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_action_previous_item.png.flat",
@@ -77,11 +77,11 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -89,7 +89,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -117,7 +117,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -125,7 +125,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light_focused.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-land-mdpi_screen.png.flat",
@@ -141,7 +141,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\layout-v16_notification_template_custom_big.xml.flat",
@@ -165,11 +165,11 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-land-xhdpi_screen.png.flat",
@@ -177,11 +177,11 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -217,7 +217,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_action_next_item.png.flat",
@@ -225,7 +225,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_notification_template_big_media.xml.flat",
@@ -233,7 +233,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_text_dark.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-land-xxhdpi_screen.png.flat",
@@ -241,7 +241,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -249,15 +249,15 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_tint.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\color\\common_google_signin_btn_tint.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_text_light.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\layout-v21_notification_action.xml.flat",
@@ -269,7 +269,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_notification_bg_low.xml.flat",
@@ -277,7 +277,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light_normal.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21_notification_action_background.xml.flat",
@@ -289,11 +289,11 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-land-xxxhdpi_screen.png.flat",
@@ -305,7 +305,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-port-hdpi_screen.png.flat",
@@ -337,7 +337,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_notification_bg.xml.flat",
@@ -345,7 +345,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -365,7 +365,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
@@ -373,7 +373,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_notification_template_lines_media.xml.flat",
@@ -389,7 +389,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_notification_template_media_custom.xml.flat",
@@ -401,11 +401,11 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_action_remove.png.flat",
@@ -421,11 +421,11 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -441,7 +441,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\layout-v21_notification_template_icon_group.xml.flat",
@@ -453,11 +453,11 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_icon.png.flat",
@@ -465,7 +465,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.1.aar\\3abcf53f6d68e437c20278a7714710ed\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\Camara809fm\\radiohl\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\layout-v21_notification_template_custom_big.xml.flat",

@@ -137,6 +137,17 @@
               else sticky.removeClass('fixed');
             });
 
+            $('.rate').click(function(){
+              var platform = device.platform;
+              switch(platform.toLowerCase()) {
+                  case "android":
+                      window.open("https://play.google.com/store/apps/details?id=tk.hectorlara.elohimradio", "_system");
+                      break;
+                  case "ios":
+                      window.open("itunes_url", "_system");
+                      break;
+              }
+            })
         </script>
     </body>
 </html>

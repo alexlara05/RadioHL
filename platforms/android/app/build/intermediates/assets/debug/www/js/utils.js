@@ -56,28 +56,40 @@ function runAppInBackground() {
     cordova.plugins.backgroundMode.setDefaults({
         title: 'Elohim Radio',
         text: 'Alabando Al Rey',
-        icon: 'icon', // this will look for icon.png in platforms/android/res/drawable|mipmap
+        icon: 'www/img/logo.png', // this will look for icon.png in platforms/android/res/drawable|mipmap
         color: 'ed0003', // hex format like 'F14F4D'
         resume: true,
         silent: true 
     });
 
     cordova.plugins.backgroundMode.enable();
-   // cordova.plugins.backgroundMode.overrideBackButton();
 
     cordova.plugins.backgroundMode.overrideBackButton();
     
     cordova.plugins.backgroundMode.on('activate', function () {
+        console.log("App go to background");
         cordova.plugins.backgroundMode.disableWebViewOptimizations();
+        
+        setInterval(function () {
+            cordova.plugins.notification.badge.increase();
+            playAudio("http://178.32.62.172:8067/stream");
+        }, 2000);
+        
     });
 
     cordova.plugins.backgroundMode.on('deactivate', function () {
-        //cordova.plugins.notification.badge.clear();
+        console.log("App come from background");
+        cordova.plugins.notification.badge.clear();
+    });
+
+    cordova.plugins.backgroundMode.isScreenOff(function(bool) {
+        // Turn screen on
+        cordova.plugins.backgroundMode.wakeUp();
+        // Turn screen on and show app even locked
+        cordova.plugins.backgroundMode.unlock();
+        playAudio("http://178.32.62.172:8067/stream");
+        console.log(bool + "Se apago la pantalla");
     });
 }
 
-//$(function() {
-    //Calling function after Page Load
-  //  AddReadMore();
-//});
  

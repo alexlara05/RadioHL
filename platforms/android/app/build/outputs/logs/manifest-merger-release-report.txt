@@ -1,31 +1,28 @@
 -- Merging decision tree log ---
 provider#nl.xservices.plugins.FileProvider
-INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:18:9-20:20
+INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:17:9-19:20
 	android:grantUriPermissions
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:18:100-134
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:17:100-134
 	android:authorities
 		INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:18:19-74
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:17:19-74
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:18:75-99
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:17:75-99
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:18:135-183
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:17:135-183
 manifest
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:2:1-107:12
-MERGED from [com.google.android.gms:play-services-analytics:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.0.1.aar\90aecf64881757b2228213386007a5d5\AndroidManifest.xml:16:1-27:12
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.0.1.aar\6a55c35e716016666f4766be8000de69\AndroidManifest.xml:16:1-20:12
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.0.1.aar\ebc89a195f03545429986b06ebe37aa1\AndroidManifest.xml:16:1-27:12
-MERGED from [com.google.android.gms:play-services-location:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.1.aar\e139cffa6a5d5177751e210b37ce4c99\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.1.aar\3abcf53f6d68e437c20278a7714710ed\AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.firebase:firebase-messaging:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.1.aar\c8c7a11a90613c01b18e791a8a7ed838\AndroidManifest.xml:16:1-30:12
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:16:1-50:12
-MERGED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.1.aar\2c61fc59b391b283e743639cdd97956d\AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-tasks:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.1.aar\eaace1793021348d723884d4c29c423b\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.1.aar\164f7c89cf9eb65c4b1d55c5a226436d\AndroidManifest.xml:16:1-23:12
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\582eef033d0efe109d3696e6be5e23d0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-location:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-12.0.1.aar\b0943923d00cd5285c372cca82ea229c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\32e81887de75780c0f618b3b89accb79\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d1d442f21d8bff9858069898d5779d06\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\e649ef34db674fa06dc1c99c16a1a5bc\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\e2ef35e0ff8bba81b52fb19e17e17c3e\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\7fe81f8eabcddca834449cba9b5d3e02\AndroidManifest.xml:17:1-22:12
 MERGED from [:CordovaLib] C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\CordovaLib\build\intermediates\manifests\full\release\AndroidManifest.xml:20:1-27:12
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8bd2c12645768c5e38a358bfd98dcdcf\AndroidManifest.xml:17:1-22:12
@@ -37,10 +34,17 @@ MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Alex\.gradle\ca
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a2da34751db4f8e4e00b19207226b4d0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f6dcad9196fdb499386b8a7dbf9501d2\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\efaec56c86c7cfff726fdbad7a82f59a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\419948c28284f22f5c5a5fe9b7a1aff9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-license-12.0.1.aar\b1b074b17e858d4e2756e77c48399f55\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\32508480caf9c453317945142f3aa2a4\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d19154bd50ac4c63ee67ca22d1cb7d42\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-55:12
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\a91966aa14e0fe51939e2814d72617b1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\27fbeec1e3bfef774e27f8cbd8912a98\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\e2f4818e92fffc508c70314ff1eb8444\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\2ff2e245f4c455d0c4d3037ac98c209b\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:2:102-137
 		INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml
@@ -71,199 +75,147 @@ ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
 	android:anyDensity
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
-MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:17:5-67
-MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:17:5-67
-MERGED from [com.google.android.gms:play-services-analytics:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.0.1.aar\90aecf64881757b2228213386007a5d5\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.0.1.aar\90aecf64881757b2228213386007a5d5\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.0.1.aar\ebc89a195f03545429986b06ebe37aa1\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.0.1.aar\ebc89a195f03545429986b06ebe37aa1\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:20:5-66
-	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:5-43:19
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:4:5-30:19
 MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:49:5-105:19
 MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:49:5-105:19
-MERGED from [com.google.android.gms:play-services-analytics:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.0.1.aar\90aecf64881757b2228213386007a5d5\AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-analytics:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.0.1.aar\90aecf64881757b2228213386007a5d5\AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.0.1.aar\6a55c35e716016666f4766be8000de69\AndroidManifest.xml:19:5-19
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.0.1.aar\6a55c35e716016666f4766be8000de69\AndroidManifest.xml:19:5-19
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.0.1.aar\ebc89a195f03545429986b06ebe37aa1\AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.0.1.aar\ebc89a195f03545429986b06ebe37aa1\AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-location:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.1.aar\e139cffa6a5d5177751e210b37ce4c99\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-location:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.1.aar\e139cffa6a5d5177751e210b37ce4c99\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.1.aar\3abcf53f6d68e437c20278a7714710ed\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.1.aar\3abcf53f6d68e437c20278a7714710ed\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.firebase:firebase-messaging:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.1.aar\c8c7a11a90613c01b18e791a8a7ed838\AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-messaging:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.1.aar\c8c7a11a90613c01b18e791a8a7ed838\AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.1.aar\2c61fc59b391b283e743639cdd97956d\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.1.aar\2c61fc59b391b283e743639cdd97956d\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.1.aar\eaace1793021348d723884d4c29c423b\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.1.aar\eaace1793021348d723884d4c29c423b\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.1.aar\164f7c89cf9eb65c4b1d55c5a226436d\AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.1.aar\164f7c89cf9eb65c4b1d55c5a226436d\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\582eef033d0efe109d3696e6be5e23d0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\582eef033d0efe109d3696e6be5e23d0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-location:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-12.0.1.aar\b0943923d00cd5285c372cca82ea229c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-12.0.1.aar\b0943923d00cd5285c372cca82ea229c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\32e81887de75780c0f618b3b89accb79\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\32e81887de75780c0f618b3b89accb79\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d1d442f21d8bff9858069898d5779d06\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d1d442f21d8bff9858069898d5779d06\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\e649ef34db674fa06dc1c99c16a1a5bc\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\e649ef34db674fa06dc1c99c16a1a5bc\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\e2ef35e0ff8bba81b52fb19e17e17c3e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\e2ef35e0ff8bba81b52fb19e17e17c3e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\419948c28284f22f5c5a5fe9b7a1aff9\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\419948c28284f22f5c5a5fe9b7a1aff9\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-license-12.0.1.aar\b1b074b17e858d4e2756e77c48399f55\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-license-12.0.1.aar\b1b074b17e858d4e2756e77c48399f55\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\32508480caf9c453317945142f3aa2a4\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\32508480caf9c453317945142f3aa2a4\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\a91966aa14e0fe51939e2814d72617b1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\a91966aa14e0fe51939e2814d72617b1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\27fbeec1e3bfef774e27f8cbd8912a98\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\27fbeec1e3bfef774e27f8cbd8912a98\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\e2f4818e92fffc508c70314ff1eb8444\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\e2f4818e92fffc508c70314ff1eb8444\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\2ff2e245f4c455d0c4d3037ac98c209b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\2ff2e245f4c455d0c4d3037ac98c209b\AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:4:114-140
 	android:label
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:4:81-113
 	android:hardwareAccelerated
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:4:18-52
 	android:icon
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:4:53-80
 activity#tk.hectorlara.elohimradio.MainActivity
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:9-10:20
 	android:screenOrientation
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:6:199-235
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:199-235
 	android:label
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:97-134
 	android:launchMode
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:6:135-170
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:135-170
 	android:windowSoftInputMode
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:6:299-341
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:299-341
 	android:configChanges
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:19-96
 	android:theme
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:6:236-298
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:236-298
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:6:171-198
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:171-198
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:6:13-9:29
 	android:label
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:6:28-65
 action#android.intent.action.MAIN
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:7:17-69
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:7:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:8:17-77
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:8:27-74
 service#de.appplant.cordova.plugin.background.ForegroundService
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:12:9-91
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:11:9-91
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:12:18-88
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:11:18-88
 receiver#nl.xservices.plugins.ShareChooserPendingIntent
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:13:9-17:20
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:12:9-16:20
 	android:enabled
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:13:19-41
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:12:19-41
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:13:42-103
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:12:42-103
 intent-filter#android.intent.action.SEND
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:14:13-16:29
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:13:13-15:29
 action#android.intent.action.SEND
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:14:25-66
 service#com.homerours.musiccontrols.MusicControlsNotificationKiller
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:21:9-95
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:20:9-95
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:21:18-92
-receiver#com.google.android.gms.analytics.AnalyticsReceiver
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:22:9-26:20
-	android:enabled
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:22:19-41
-	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:22:42-107
-intent-filter#com.google.android.gms.analytics.ANALYTICS_DISPATCH
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:23:13-25:29
-action#com.google.android.gms.analytics.ANALYTICS_DISPATCH
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:24:17-94
-	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:24:25-91
-service#com.google.android.gms.analytics.AnalyticsService
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:27:9-133
-	android:enabled
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:27:18-40
-	android:exported
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:27:41-65
-	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:27:66-130
-receiver#com.google.android.gms.analytics.CampaignTrackingReceiver
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:28:9-32:20
-	android:enabled
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:28:19-41
-	android:exported
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:28:42-65
-	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:28:66-138
-intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:29:13-31:29
-action#com.android.vending.INSTALL_REFERRER
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:30:17-79
-	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:30:25-76
-service#com.google.android.gms.analytics.CampaignTrackingService
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:33:9-140
-	android:enabled
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:33:18-40
-	android:exported
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:33:41-65
-	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:33:66-137
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:20:18-92
 amazon:enable-feature
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:34:9-159
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:21:9-159
 	xmlns:amazon
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:34:100-156
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:21:100-156
 	android:required
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:34:75-99
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:21:75-99
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:34:32-74
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:21:32-74
 service#com.onesignal.ADMMessageHandler
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:35:9-92
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:22:9-92
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:35:18-42
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:22:18-42
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:35:43-89
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:22:43-89
 receiver#com.onesignal.ADMMessageHandler$Receiver
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:36:9-42:20
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:23:9-29:20
 	android:permission
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:36:75-139
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:23:75-139
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:36:19-74
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:23:19-74
 intent-filter#com.amazon.device.messaging.intent.RECEIVE+com.amazon.device.messaging.intent.REGISTRATION+tk.hectorlara.radiohl
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:37:13-41:29
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:24:13-28:29
 action#com.amazon.device.messaging.intent.REGISTRATION
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:38:17-90
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:25:17-90
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:38:25-87
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:25:25-87
 action#com.amazon.device.messaging.intent.RECEIVE
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:39:17-85
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:26:17-85
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:39:25-82
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:26:25-82
 category#tk.hectorlara.radiohl
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:40:17-66
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:27:17-66
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:40:27-63
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:27:27-63
 uses-sdk
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:44:5-74
-INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:44:5-74
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:31:5-74
+INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:31:5-74
 MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:5:5-44
 MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-analytics:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.0.1.aar\90aecf64881757b2228213386007a5d5\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-analytics:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.0.1.aar\90aecf64881757b2228213386007a5d5\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.0.1.aar\6a55c35e716016666f4766be8000de69\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.0.1.aar\6a55c35e716016666f4766be8000de69\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.0.1.aar\ebc89a195f03545429986b06ebe37aa1\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.0.1.aar\ebc89a195f03545429986b06ebe37aa1\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-location:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.1.aar\e139cffa6a5d5177751e210b37ce4c99\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-location:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.1.aar\e139cffa6a5d5177751e210b37ce4c99\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.1.aar\3abcf53f6d68e437c20278a7714710ed\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.1.aar\3abcf53f6d68e437c20278a7714710ed\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-messaging:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.1.aar\c8c7a11a90613c01b18e791a8a7ed838\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-messaging:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.1.aar\c8c7a11a90613c01b18e791a8a7ed838\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.1.aar\2c61fc59b391b283e743639cdd97956d\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.1.aar\2c61fc59b391b283e743639cdd97956d\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.1.aar\eaace1793021348d723884d4c29c423b\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.1.aar\eaace1793021348d723884d4c29c423b\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.1.aar\164f7c89cf9eb65c4b1d55c5a226436d\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.1.aar\164f7c89cf9eb65c4b1d55c5a226436d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\582eef033d0efe109d3696e6be5e23d0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\582eef033d0efe109d3696e6be5e23d0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-12.0.1.aar\b0943923d00cd5285c372cca82ea229c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-12.0.1.aar\b0943923d00cd5285c372cca82ea229c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\32e81887de75780c0f618b3b89accb79\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\32e81887de75780c0f618b3b89accb79\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d1d442f21d8bff9858069898d5779d06\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d1d442f21d8bff9858069898d5779d06\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\e649ef34db674fa06dc1c99c16a1a5bc\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\e649ef34db674fa06dc1c99c16a1a5bc\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\e2ef35e0ff8bba81b52fb19e17e17c3e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\e2ef35e0ff8bba81b52fb19e17e17c3e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\7fe81f8eabcddca834449cba9b5d3e02\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\7fe81f8eabcddca834449cba9b5d3e02\AndroidManifest.xml:20:5-44
 MERGED from [:CordovaLib] C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\CordovaLib\build\intermediates\manifests\full\release\AndroidManifest.xml:25:5-44
@@ -286,111 +238,123 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Alex\.gradle\c
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f6dcad9196fdb499386b8a7dbf9501d2\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\efaec56c86c7cfff726fdbad7a82f59a\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\efaec56c86c7cfff726fdbad7a82f59a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\419948c28284f22f5c5a5fe9b7a1aff9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\419948c28284f22f5c5a5fe9b7a1aff9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-license-12.0.1.aar\b1b074b17e858d4e2756e77c48399f55\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-location-license-12.0.1.aar\b1b074b17e858d4e2756e77c48399f55\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\32508480caf9c453317945142f3aa2a4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\32508480caf9c453317945142f3aa2a4\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d19154bd50ac4c63ee67ca22d1cb7d42\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d19154bd50ac4c63ee67ca22d1cb7d42\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:44:5-74
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\a91966aa14e0fe51939e2814d72617b1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\a91966aa14e0fe51939e2814d72617b1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\27fbeec1e3bfef774e27f8cbd8912a98\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\27fbeec1e3bfef774e27f8cbd8912a98\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\e2f4818e92fffc508c70314ff1eb8444\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\e2f4818e92fffc508c70314ff1eb8444\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\2ff2e245f4c455d0c4d3037ac98c209b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\2ff2e245f4c455d0c4d3037ac98c209b\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:31:5-74
 	android:targetSdkVersion
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:44:42-71
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:31:42-71
 	android:minSdkVersion
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:44:15-41
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:31:15-41
 		INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:45:5-79
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:32:5-79
 MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:25:5-79
 MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.gms:play-services-analytics:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.0.1.aar\90aecf64881757b2228213386007a5d5\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.0.1.aar\90aecf64881757b2228213386007a5d5\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.0.1.aar\ebc89a195f03545429986b06ebe37aa1\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.0.1.aar\ebc89a195f03545429986b06ebe37aa1\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:45:22-76
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:32:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:46:5-81
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:33:5-81
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:46:22-78
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:33:22-78
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:47:5-71
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:34:5-71
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:47:22-68
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:34:22-68
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:48:5-80
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:35:5-80
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:48:22-77
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:35:22-77
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:49:5-75
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:36:5-75
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:49:22-72
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:36:22-72
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:50:5-68
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:37:5-68
 MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:19:5-68
 MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:19:5-68
-MERGED from [com.google.android.gms:play-services-analytics:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.0.1.aar\90aecf64881757b2228213386007a5d5\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.0.1.aar\90aecf64881757b2228213386007a5d5\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.0.1.aar\ebc89a195f03545429986b06ebe37aa1\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.0.1.aar\ebc89a195f03545429986b06ebe37aa1\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:50:22-65
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:37:22-65
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:51:5-80
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:38:5-80
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:51:22-77
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:38:22-77
 uses-permission#com.amazon.device.messaging.permission.RECEIVE
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:52:5-86
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:39:5-86
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:52:22-83
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:39:22-83
 permission#tk.hectorlara.radiohl.permission.RECEIVE_ADM_MESSAGE
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:53:5-123
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:40:5-123
 	android:protectionLevel
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:53:85-120
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:40:85-120
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:53:17-84
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:40:17-84
 uses-permission#tk.hectorlara.radiohl.permission.RECEIVE_ADM_MESSAGE
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:54:5-92
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:41:5-92
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:54:22-89
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:41:22-89
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:19:13-115
+ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:18:13-115
 	android:resource
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:19:75-112
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:18:75-112
 	android:name
-		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:19:24-74
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\Camara809fm\radiohl\platforms\android\app\src\main\AndroidManifest.xml:18:24-74
 permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:8:5-10:47
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:24:5-109
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:24:5-109
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:28:5-30:47
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:10:9-44
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:9:9-63
 permission#tk.hectorlara.elohimradio.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:8:5-10:47
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:24:5-109
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:24:5-109
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:28:5-30:47
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:10:9-44
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:9:9-63
 uses-permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:12:5-79
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:26:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:26:5-78
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:32:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:32:5-79
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:12:22-76
 uses-permission#tk.hectorlara.elohimradio.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:12:5-79
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:26:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:26:5-78
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:32:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:32:5-79
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:17:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:17:22-64
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:18:5-82
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:22:5-81
-MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:26:5-82
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:18:22-79
 uses-permission#android.permission.VIBRATE
@@ -575,69 +539,63 @@ action#android.intent.action.MY_PACKAGE_REPLACED
 ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:102:17-84
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\e31b91a3478744a48acaff6a5676d997\AndroidManifest.xml:102:25-81
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.1.aar\3abcf53f6d68e437c20278a7714710ed\AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.1.aar\3abcf53f6d68e437c20278a7714710ed\AndroidManifest.xml:19:146-170
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.1.aar\3abcf53f6d68e437c20278a7714710ed\AndroidManifest.xml:19:86-145
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.1.aar\3abcf53f6d68e437c20278a7714710ed\AndroidManifest.xml:19:19-85
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.1.aar\c8c7a11a90613c01b18e791a8a7ed838\AndroidManifest.xml:23:9-27:19
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\582eef033d0efe109d3696e6be5e23d0\AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.1.aar\c8c7a11a90613c01b18e791a8a7ed838\AndroidManifest.xml:23:88-111
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\582eef033d0efe109d3696e6be5e23d0\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.1.aar\c8c7a11a90613c01b18e791a8a7ed838\AndroidManifest.xml:23:18-87
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\582eef033d0efe109d3696e6be5e23d0\AndroidManifest.xml:29:13-82
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.1.aar\c8c7a11a90613c01b18e791a8a7ed838\AndroidManifest.xml:24:13-26:29
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\582eef033d0efe109d3696e6be5e23d0\AndroidManifest.xml:31:13-33:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.1.aar\c8c7a11a90613c01b18e791a8a7ed838\AndroidManifest.xml:24:28-51
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\582eef033d0efe109d3696e6be5e23d0\AndroidManifest.xml:31:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.1.aar\c8c7a11a90613c01b18e791a8a7ed838\AndroidManifest.xml:25:17-77
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\582eef033d0efe109d3696e6be5e23d0\AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.1.aar\c8c7a11a90613c01b18e791a8a7ed838\AndroidManifest.xml:25:25-75
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\582eef033d0efe109d3696e6be5e23d0\AndroidManifest.xml:32:25-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\32e81887de75780c0f618b3b89accb79\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\32e81887de75780c0f618b3b89accb79\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\32e81887de75780c0f618b3b89accb79\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\32e81887de75780c0f618b3b89accb79\AndroidManifest.xml:24:13-79
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:35:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:38:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:30:19-84
-receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:39:9-119
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:39:93-117
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:36:13-78
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:51:13-77
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:44:13-46:29
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:53:13-55:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:44:28-51
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:53:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:45:17-79
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:54:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.1.aar\32e6680a2549c83fbd99d990cac3d1ab\AndroidManifest.xml:45:25-77
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\4d9d9e7a9f6d9b00bc5ca21505d41aec\AndroidManifest.xml:54:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.1.aar\2c61fc59b391b283e743639cdd97956d\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d1d442f21d8bff9858069898d5779d06\AndroidManifest.xml:8:9-12:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.1.aar\2c61fc59b391b283e743639cdd97956d\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d1d442f21d8bff9858069898d5779d06\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.1.aar\2c61fc59b391b283e743639cdd97956d\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d1d442f21d8bff9858069898d5779d06\AndroidManifest.xml:11:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.1.aar\2c61fc59b391b283e743639cdd97956d\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d1d442f21d8bff9858069898d5779d06\AndroidManifest.xml:12:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.1.aar\2c61fc59b391b283e743639cdd97956d\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d1d442f21d8bff9858069898d5779d06\AndroidManifest.xml:9:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.1.aar\164f7c89cf9eb65c4b1d55c5a226436d\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\e2ef35e0ff8bba81b52fb19e17e17c3e\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.1.aar\164f7c89cf9eb65c4b1d55c5a226436d\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\e2ef35e0ff8bba81b52fb19e17e17c3e\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.1.aar\164f7c89cf9eb65c4b1d55c5a226436d\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\e2ef35e0ff8bba81b52fb19e17e17c3e\AndroidManifest.xml:24:13-58

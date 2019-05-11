@@ -20,6 +20,7 @@ var app = {
             .endInit();
 
             runAppInBackground();
+            
             // Register the event listener
         document.addEventListener("backbutton", onBackKeyPressed, false);
     },

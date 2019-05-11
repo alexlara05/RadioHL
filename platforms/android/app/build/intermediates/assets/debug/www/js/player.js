@@ -1,6 +1,6 @@
 // Play audio
 //
-var serverUrl = playAudio("http://178.32.62.172:8067/stream");
+var runPlayer = playAudio("http://178.32.62.172:8067/stream");
 var my_media = null;
 function playAudio(url) {
 
