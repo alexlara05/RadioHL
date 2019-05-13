@@ -23,18 +23,20 @@ function playAudio(url) {
     var mediaTimer = setInterval(function () {
 
         // get media position
-        my_media.getCurrentPosition(
-            // success callback
-            function (position) {
-                if (position > -1) {
-                    $('.current_seconds').text(position + 's')
+        if(my_media != null){
+            my_media.getCurrentPosition(
+                // success callback
+                function (position) {
+                    if (position > -1) {
+                        $('.current_seconds').text(position + 's')
+                    }
+                },
+                // error callback
+                function (e) {
+                    console.log("Error getting position=" + e);
                 }
-            },
-            // error callback
-            function (e) {
-                console.log("Error getting position=" + e);
-            }
-        );
+            );
+        }
     }, 1000);
 
     $('.play').click(function(){
@@ -45,6 +47,7 @@ function playAudio(url) {
             clearInterval(mediaTimer);
             playerStatusTittle("Detenido");
             MusicControls.updateIsPlaying(false);
+            localStorage.setItem("audioIsPlaying", "false");
         }else{
             my_media = new Media(url,
                 // success callback
@@ -62,7 +65,7 @@ function playAudio(url) {
 function status_change(code) {
     switch (code) {
         case 0: // None
-            console.log("Error caso 0"+code)
+            console.log("Error caso 0 "+code)
             break;
         case 1: // starting
         $('.play').attr('src', 'img/loader.gif');
@@ -75,8 +78,8 @@ function status_change(code) {
             playerStatusTittle('Reproduciendo');
             console.log('Player rRunning')
             songInfoMessage("Transmisión en vivo");
-
             setMusicControls(); // Set music controls on status bar
+            localStorage.setItem("audioIsPlaying", "true");
             break;    
         case 3: // Paused
         $('.play').attr('src', 'img/play_button.png');
@@ -85,6 +88,8 @@ function status_change(code) {
         case 4:  // Stoped
         $('.play').attr('src', 'img/play_button.png');
         playerStatusTittle("Detenido");
+        songInfoMessage("Transmisión en vivo");
+        localStorage.setItem("audioIsPlaying", "false");
             break;    
     
         default:
@@ -101,7 +106,7 @@ function onError (err) {
     if(err){ // An error ocurred
         $('.play').attr('src', 'img/play_button.png');
         //my_media.release();
-        console.log(err);
+        console.log("Audio player error " + err);
         playerStatusTittle("Detenido")
     }
 }
@@ -126,7 +131,9 @@ function setMusicControls() {
         hasPrev   : false,
         hasNext   : false,
         hasClose  : true,
-        ticker	  : 'Now playing "Time is Running Out"'
+        ticker	  : 'Now playing "Time is Running Out"',
+
+        notificationIcon: 'notification'
     }, function(success){
         console.log('Music Controls : '+success);
     },function(error){
@@ -151,7 +158,7 @@ function events(action) {
           case 'music-controls-pause':
           $('.play').click();
           MusicControls.updateIsPlaying(false); // toggle the play/pause notification button
-          console.log('MusicControls paused pressed')
+          console.log('MusicControls paused pressed');
               // Do something
               break;
           case 'music-controls-play':
@@ -174,6 +181,7 @@ function events(action) {
                   elapsed: seekToInSeconds,
                   isPlaying: true
               });
+              console.log("seekToInSeconds" + seekToInSeconds)
               // Do something
               break;
    

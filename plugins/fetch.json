@@ -39,14 +39,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-inappbrowser": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-inappbrowser@3.0.0"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-background-mode": {
     "source": {
       "type": "registry",
@@ -109,6 +101,14 @@
       "id": "cordova-play-services-version-adapter"
     },
     "is_top_level": false,
+    "variables": {}
+  },
+  "cordova.plugins.DozeOptimize": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/thomas550i/cordova-plugin-doze-Optimize"
+    },
+    "is_top_level": true,
     "variables": {}
   }
 }

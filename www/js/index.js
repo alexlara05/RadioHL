@@ -11,6 +11,7 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function(jsonData) {
         this.receivedEvent('deviceready');
+        
         playAudio("http://178.32.62.172:8067/stream");
 
         // Push notifications 
@@ -20,9 +21,11 @@ var app = {
             .endInit();
 
             runAppInBackground();
-            
+            excludeAppFromBatterySaver();
+
             // Register the event listener
         document.addEventListener("backbutton", onBackKeyPressed, false);
+ 
     },
 
     // Update DOM on a Received Event

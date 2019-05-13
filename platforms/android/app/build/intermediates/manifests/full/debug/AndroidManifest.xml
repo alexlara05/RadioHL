@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="tk.hectorlara.elohimradio"
     android:hardwareAccelerated="true"
-    android:versionCode="10102"
-    android:versionName="1.1.2" >
+    android:versionCode="10105"
+    android:versionName="1.1.5" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -17,12 +17,14 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE" />
 
@@ -31,15 +33,13 @@
         android:protectionLevel="signature" />
 
     <uses-permission android:name="tk.hectorlara.radiohl.permission.RECEIVE_ADM_MESSAGE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
     <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
         android:name="tk.hectorlara.elohimradio.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="tk.hectorlara.elohimradio.permission.C2D_MESSAGE" /> <!-- OneSignal SDK has runtime checks Android version. -->
-    <!-- <uses-sdk tools:overrideLibrary="android.support.customtabs"/> -->
-    <!-- INTERNET and c2dm RECEIVE are basic requirements for push messages through Google's GCM. -->
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="tk.hectorlara.elohimradio.permission.C2D_MESSAGE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <!--
  Required so the device vibrates on receiving a push notification.

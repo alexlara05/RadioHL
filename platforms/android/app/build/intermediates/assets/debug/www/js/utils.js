@@ -63,33 +63,53 @@ function runAppInBackground() {
     });
 
     cordova.plugins.backgroundMode.enable();
-
     cordova.plugins.backgroundMode.overrideBackButton();
-    
+
+    var intervals = [];
+    var playInterval; 
+
     cordova.plugins.backgroundMode.on('activate', function () {
         console.log("App go to background");
+        localStorage.setItem("backgroundMode", "true");
         cordova.plugins.backgroundMode.disableWebViewOptimizations();
+        //cordova.plugins.backgroundMode.disableBatteryOptimizations();   
         
-        setInterval(function () {
-            cordova.plugins.notification.badge.increase();
-            playAudio("http://178.32.62.172:8067/stream");
-        }, 2000);
-        
+        playInterval = setInterval(function() {
+            if(localStorage.getItem("audioIsPlaying") == "true"){
+            // playAudio("http://178.32.62.172:8067/stream");
+                console.log("App runing and playing in backgroud mode");
+            }
+            //intervals.push(playInterval);
+            //window.playInterval = intervals;
+        }, 1000);  
     });
 
     cordova.plugins.backgroundMode.on('deactivate', function () {
         console.log("App come from background");
-        cordova.plugins.notification.badge.clear();
-    });
-
-    cordova.plugins.backgroundMode.isScreenOff(function(bool) {
-        // Turn screen on
-        cordova.plugins.backgroundMode.wakeUp();
-        // Turn screen on and show app even locked
-        cordova.plugins.backgroundMode.unlock();
-        playAudio("http://178.32.62.172:8067/stream");
-        console.log(bool + "Se apago la pantalla");
+        localStorage.setItem("backgroundMode", "false");
+        if (cordova.plugins.notification != undefined) {
+            cordova.plugins.notification.badge.clear();
+        }
+        clearInterval(playInterval);
     });
 }
 
- 
+ function excludeAppFromBatterySaver() {
+    cordova.plugins.DozeOptimize.IsIgnoringBatteryOptimizations(function (responce){
+        console.log("IsIgnoringBatteryOptimizations: "+responce);
+            if(responce=="false")
+            {
+              cordova.plugins.DozeOptimize.RequestOptimizations(function (responce){
+                console.log(responce);
+              }, function (error){
+              console.error("BatteryOptimizations Request Error"+error);			
+              });
+            }
+            else
+            {
+              console.log("Application already Ignoring Battery Optimizations");
+            }		
+      }, function (error){
+      console.error("IsIgnoringBatteryOptimizations Error"+error);    
+      });
+ }

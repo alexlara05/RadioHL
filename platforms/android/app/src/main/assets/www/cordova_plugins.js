@@ -271,11 +271,19 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-badge.Badge",
-    "file": "plugins/cordova-plugin-badge/www/badge.js",
-    "pluginId": "cordova-plugin-badge",
+    "id": "cordova-plugin-powermanagement.powermanagement",
+    "file": "plugins/cordova-plugin-powermanagement/www/powermanagement.js",
+    "pluginId": "cordova-plugin-powermanagement",
     "clobbers": [
-      "cordova.plugins.notification.badge"
+      "window.powermanagement"
+    ]
+  },
+  {
+    "id": "cordova.plugins.DozeOptimize.DozeOptimize",
+    "file": "plugins/cordova.plugins.DozeOptimize/www/DozeOptimize.js",
+    "pluginId": "cordova.plugins.DozeOptimize",
+    "clobbers": [
+      "cordova.plugins.DozeOptimize"
     ]
   }
 ];
@@ -294,7 +302,8 @@ module.exports.metadata =
   "cordova-plugin-x-socialsharing": "5.4.4",
   "cordova-plugin-music-controls": "2.2.0",
   "onesignal-cordova-plugin": "2.4.6",
-  "cordova-plugin-badge": "0.8.8"
+  "cordova-plugin-powermanagement": "1.0.5",
+  "cordova.plugins.DozeOptimize": "0.1.3"
 };
 // BOTTOM OF METADATA
 });

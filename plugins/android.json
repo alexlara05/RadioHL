@@ -19,9 +19,6 @@
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "tk.hectorlara.radiohl"
     },
-    "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
-    },
     "cordova-plugin-background-mode": {
       "PACKAGE_NAME": "tk.hectorlara.radiohl"
     },
@@ -34,6 +31,9 @@
     },
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "tk.hectorlara.radiohl"
+    },
+    "cordova.plugins.DozeOptimize": {
+      "PACKAGE_NAME": "tk.hectorlara.elohimradio"
     }
   },
   "dependent_plugins": {

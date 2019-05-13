@@ -33,10 +33,6 @@
               "count": 1
             },
             {
-              "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
-              "count": 1
-            },
-            {
               "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
               "count": 1
             },
@@ -62,6 +58,10 @@
             },
             {
               "xml": "<feature name=\"OneSignalPush\"><param name=\"android-package\" value=\"com.plugin.gcm.OneSignalPush\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"DozeOptimize\"><param name=\"android-package\" value=\"cordova.plugins.DozeOptimize.DozeOptimize\" /></feature>",
               "count": 1
             }
           ]
@@ -92,6 +92,10 @@
             },
             {
               "xml": "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS\" />",
               "count": 1
             }
           ],
@@ -170,9 +174,6 @@
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "tk.hectorlara.radiohl"
     },
-    "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
-    },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "tk.hectorlara.radiohl"
     },
@@ -191,6 +192,9 @@
     },
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "tk.hectorlara.radiohl"
+    },
+    "cordova.plugins.DozeOptimize": {
+      "PACKAGE_NAME": "tk.hectorlara.elohimradio"
     }
   },
   "dependent_plugins": {},
@@ -410,15 +414,6 @@
       ]
     },
     {
-      "id": "cordova-plugin-inappbrowser.inappbrowser",
-      "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-      "pluginId": "cordova-plugin-inappbrowser",
-      "clobbers": [
-        "cordova.InAppBrowser.open",
-        "window.open"
-      ]
-    },
-    {
       "id": "cordova-plugin-device.device",
       "file": "plugins/cordova-plugin-device/www/device.js",
       "pluginId": "cordova-plugin-device",
@@ -464,6 +459,14 @@
       "clobbers": [
         "OneSignal"
       ]
+    },
+    {
+      "id": "cordova.plugins.DozeOptimize.DozeOptimize",
+      "file": "plugins/cordova.plugins.DozeOptimize/www/DozeOptimize.js",
+      "pluginId": "cordova.plugins.DozeOptimize",
+      "clobbers": [
+        "cordova.plugins.DozeOptimize"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -472,12 +475,12 @@
     "cordova-plugin-file": "6.0.1",
     "cordova-plugin-media": "5.0.2",
     "cordova-plugin-splashscreen": "5.0.2",
-    "cordova-plugin-inappbrowser": "3.0.0",
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-background-mode": "0.7.2",
     "es6-promise-plugin": "4.2.2",
     "cordova-plugin-x-socialsharing": "5.4.4",
     "cordova-plugin-music-controls": "2.2.0",
-    "onesignal-cordova-plugin": "2.4.6"
+    "onesignal-cordova-plugin": "2.4.6",
+    "cordova.plugins.DozeOptimize": "0.1.3"
   }
 }
