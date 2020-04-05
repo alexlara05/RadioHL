@@ -1,0 +1,291 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-image: url(../img/bg.jpg);
+    background-position: top;
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+/* Portrait layout (default) */
+.app {
+    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    position:absolute;             /* position in the center of the screen */
+    left:50%;
+    top:50%;
+    height:50px;                   /* text area height */
+    width:225px;                   /* text area width */
+    text-align:center;
+    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+
+.app_header{
+    padding: 15px;
+    text-align: center;
+    background: #b43b3b;
+    color: #fff;
+    font-size: 16px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 250px
+}
+.player_status{
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #3e3b3b;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.song{
+    font-size: 18px;
+    text-transform: none;
+    color: #3e3b3b;
+    font-weight: 400;
+    text-align: center;
+}
+.player_controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img[alt="Play"], img[alt="pause"]{
+    width: 65px;
+    margin: 0 15px;
+}
+.rate, .share{
+    width: 47px;
+}
+.current_seconds{
+    text-align: center
+}
+.height100{
+    height: 100%;
+}
+.chat_text_bubble{
+    padding: 6px 7px 8px 9px;
+    background: #fff;
+    border-radius: 7.5px;
+    box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
+    border-top-left-radius: 0px;
+    margin-bottom: 8px;
+}
+.message_text{
+    word-wrap: break-word;
+    display: inline-block;
+    padding: 4px 0;
+    line-height: 19px;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+.message_date{
+    float: right;
+    color: #838690;
+}
+.user_avatar{
+    width: 34px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.chatContent{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    margin: 0 -20px;
+}
+
+.chat-controls {
+    padding: 15px;
+    background: #fff;
+    border-top: 1px solid #f70000;
+}
+
+#chat {
+    padding: 0 20px;
+    background: white;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_name{
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 1px 1px 10px #ffffff;
+    text-transform: uppercase;
+}
+.profile_page_container{
+    background: #eaeaea;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9999999999;
+}
+
+.profile_page_inner{
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.profile_input{
+    width: 92%;
+    margin-bottom: 15px;
+    height: 36px;
+    padding: 0 10px;
+}
+.post{
+    background: #fff;
+    border-radius: 7px;
+    color: #5d4f4f;
+    margin-bottom: 15px;
+}
+.post_img_iframe img, .post_img_iframe iframe{
+    width: 100%;
+    height: auto;
+    border-radius: 7px 7px 0 0;
+    margin-top: 10px;
+}
+.post_title {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.post_body{
+    font-size: 15px;
+    padding: 10px;
+}
+.post_author{
+    padding: 0 10px;
+}
+.author{
+    float: left;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.name{
+    font-weight: 400;
+    font-size: 12px;
+}
+.post_date{
+    padding-top: 10px;
+    float: right;
+}
+.author img{
+    width: 24px;
+    float: left;
+    margin-right: 5px;
+}
+.author .name{
+    margin-top: 5px
+}
+
+/* SHOW READ MORE READ LESS */
+.addReadMore.showlesscontent .SecSec,
+.addReadMore.showlesscontent .readLess {
+    display: none;
+}
+
+.addReadMore.showmorecontent .readMore {
+    display: none;
+}
+
+.addReadMore .readMore,
+.addReadMore .readLess {
+    font-weight: bold;
+    margin-left: 2px;
+    color: #b14343;
+    cursor: pointer;
+}
+
+.addReadMoreWrapTxt.showmorecontent .SecSec,
+.addReadMoreWrapTxt.showmorecontent .readLess {
+    display: block;
+}
+/* END SHOW READ MORE READ LESS */

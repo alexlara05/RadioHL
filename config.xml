@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="tk.hectorlara.elohimradio" version="1.1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Elohim Radio</name>
+<widget id="hlara.info.adonairadio" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Adonai Radio</name>
     <description>
         RadioHL App for modern radiostations
     </description>
-    <author email="hectorluislarazapata@gmail.com" href="http://hectorlara.tk">
+    <author email="hectorluislarazapata@gmail.com" href="https://hlara.info">
         Hector Lara (Alex).
     </author>
     <content src="index.html" />
@@ -20,7 +20,7 @@
         <allow-intent href="market:*" />
         <preference name="android-minSdkVersion" value="21" />
         <preference name="Orientation" value="portrait" />
-        <preference name="android-targetSdkVersion" value="27" />
+        <preference name="android-targetSdkVersion" value="28" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -34,7 +34,7 @@
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="24.1.1+" />
     </plugin>
     <plugin name="cordova-plugin-music-controls" spec="https://github.com/homerours/cordova-music-controls-plugin" />
-    <icon src="www/img/logo.png" />
+    <icon src="www/img/icon.png" />
     <plugin name="onesignal-cordova-plugin" spec="2.4.6" />
     <engine name="android" spec="7.1.4" />
 </widget>

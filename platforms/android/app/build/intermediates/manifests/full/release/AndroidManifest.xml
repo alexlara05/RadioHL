@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tk.hectorlara.elohimradio"
+    package="hlara.info.adonairadio"
     android:hardwareAccelerated="true"
-    android:versionCode="10105"
-    android:versionName="1.1.5" >
+    android:versionCode="10001"
+    android:versionName="1.0.1" >
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="27" />
+        android:targetSdkVersion="28" />
 
     <supports-screens
         android:anyDensity="true"
@@ -36,10 +36,10 @@
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
     <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
-        android:name="tk.hectorlara.elohimradio.permission.C2D_MESSAGE"
+        android:name="hlara.info.adonairadio.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="tk.hectorlara.elohimradio.permission.C2D_MESSAGE" />
+    <uses-permission android:name="hlara.info.adonairadio.permission.C2D_MESSAGE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <!--
  Required so the device vibrates on receiving a push notification.
@@ -75,7 +75,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true" >
         <activity
-            android:name="tk.hectorlara.elohimradio.MainActivity"
+            android:name="hlara.info.adonairadio.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
             android:label="@string/activity_name"
             android:launchMode="singleInstance"
@@ -101,7 +101,7 @@
 
         <provider
             android:name="nl.xservices.plugins.FileProvider"
-            android:authorities="tk.hectorlara.elohimradio.sharing.provider"
+            android:authorities="hlara.info.adonairadio.sharing.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -146,7 +146,7 @@
             <intent-filter android:priority="999" >
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="tk.hectorlara.elohimradio" />
+                <category android:name="hlara.info.adonairadio" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
@@ -209,7 +209,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="tk.hectorlara.elohimradio" />
+                <category android:name="hlara.info.adonairadio" />
             </intent-filter>
         </receiver>
         <!--
@@ -226,7 +226,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="tk.hectorlara.elohimradio.firebaseinitprovider"
+            android:authorities="hlara.info.adonairadio.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 

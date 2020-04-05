@@ -1,12 +1,14 @@
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyAkhPZ2c6KW1YGGxemtffJo-u-4uuaG2os",
-    authDomain: "camara809onesignalpush.firebaseapp.com",
-    databaseURL: "https://camara809onesignalpush.firebaseio.com",
-    projectId: "camara809onesignalpush",
-    storageBucket: "camara809onesignalpush.appspot.com",
-    messagingSenderId: "784237596940"
-  };
+  apiKey: "AIzaSyAlQEybBWhlG1rw24zGnu-OV9ZdJd2ft1o",
+  authDomain: "adonairadio-74d74.firebaseapp.com",
+  databaseURL: "https://adonairadio-74d74.firebaseio.com",
+  projectId: "adonairadio-74d74",
+  storageBucket: "adonairadio-74d74.appspot.com",
+  messagingSenderId: "373473229173",
+  appId: "1:373473229173:web:13883a8695631ca29fbb3c",
+  measurementId: "G-JPSHY4S859"
+};
   firebase.initializeApp(config);
   var db = firebase.database();
   var jsonData = [];

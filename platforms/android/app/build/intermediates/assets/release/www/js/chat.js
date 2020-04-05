@@ -8,9 +8,9 @@
     var channel = 'Channel-8q8k0tpmv';
 
     var p = PUBNUB.init({
-        subscribe_key: 'sub-c-dfb4dafe-3193-11e9-abbd-facdde0fb9a0',
-        publish_key:   'pub-c-7d967ce6-121b-4c1d-bf7a-79e771a1328c',
-        secretKey:     'sec-c-YTNhNTE1MDItZGZmYS00ZWZmLWJiYmMtNWY3OThkODQ1MDNh'
+        subscribe_key: 'sub-c-460d99b8-76bb-11ea-9128-3a1eb1802302',
+        publish_key:   'pub-c-a2e62d8f-98e4-4ef2-bf62-7069ae235e28',
+        secretKey:     'sub-c-460d99b8-76bb-11ea-9128-3a1eb1802302'
     });
 
     p.subscribe({

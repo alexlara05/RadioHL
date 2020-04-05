@@ -1,6 +1,6 @@
 // Play audio
 //
-var runPlayer = playAudio("http://178.32.62.172:8067/stream");
+var runPlayer = playAudio("http://178.32.62.172:8059/stream");
 var my_media = null;
 function playAudio(url) {
 
@@ -123,7 +123,7 @@ function songInfoMessage(messages) {
 function setMusicControls() {
     // Music controls show player on status bar
     MusicControls.create({
-        track : 'ELOHIM RADIO',
+        track : 'ADONAI RADIO',
         artist      : 'Transmisión en vivo',
         cover       : 'logo_for_music_controls.png',
         isPlaying   : true,

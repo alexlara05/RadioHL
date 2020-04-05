@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="tk.hectorlara.elohimradio" version="1.1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="hlara.info.adonairadio" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
@@ -37,11 +37,11 @@
     <feature name="DozeOptimize">
         <param name="android-package" value="cordova.plugins.DozeOptimize.DozeOptimize" />
     </feature>
-    <name>Elohim Radio</name>
+    <name>Adonai Radio</name>
     <description>
         RadioHL App for modern radiostations
     </description>
-    <author email="hectorluislarazapata@gmail.com" href="http://hectorlara.tk">
+    <author email="hectorluislarazapata@gmail.com" href="https://hlara.info">
         Hector Lara (Alex).
     </author>
     <content src="index.html" />
@@ -52,12 +52,12 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <icon src="www/img/logo.png" />
+    <icon src="www/img/icon.png" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="KeepRunning" value="true" />
     <preference name="AndroidLaunchMode" value="singleInstance" />
     <preference name="android-minSdkVersion" value="21" />
     <preference name="Orientation" value="portrait" />
-    <preference name="android-targetSdkVersion" value="27" />
+    <preference name="android-targetSdkVersion" value="28" />
 </widget>

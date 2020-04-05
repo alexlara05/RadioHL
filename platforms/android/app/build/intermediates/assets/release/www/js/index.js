@@ -12,11 +12,11 @@ var app = {
     onDeviceReady: function(jsonData) {
         this.receivedEvent('deviceready');
         
-        playAudio("http://178.32.62.172:8067/stream");
+        playAudio("http://178.32.62.172:8059/stream");
 
         // Push notifications 
           window.plugins.OneSignal
-            .startInit("540d061e-1d21-4ba3-b28b-c64b8b7b85f7")
+            .startInit("071e7868-cf05-41e4-a6b5-8fda70c6a2a0")
             .handleNotificationOpened(notificationOpenedCallback)
             .endInit();
 

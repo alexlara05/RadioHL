@@ -55,7 +55,7 @@ function getRandomColor() {
 function runAppInBackground() {
     cordova.plugins.backgroundMode.setDefaults({
         title: 'Elohim Radio',
-        text: 'Alabando Al Rey',
+        text: 'Edifica tu alma',
         icon: 'www/img/logo.png', // this will look for icon.png in platforms/android/res/drawable|mipmap
         color: 'ed0003', // hex format like 'F14F4D'
         resume: true,

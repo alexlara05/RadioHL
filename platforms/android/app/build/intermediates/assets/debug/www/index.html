@@ -1,39 +1,11 @@
 ﻿<!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
     <head>
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
         <meta http-equiv="Content-Security-Policy" content="default-src gap://ready file://* *; style-src 'self' http://* https://* 'unsafe-inline'; script-src 'self' http://* https://* 'unsafe-inline' 'unsafe-eval'">
-
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">   
-        <title>ELOHIM RADIO</title>
+        <title>ADONAI RADIO</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" type="text/css" href="css/swipe_tabs.css">
@@ -43,7 +15,7 @@
         <script src="js/firebase.js"></script>
     </head>
     <body>
-        <div class="app_header">ALABANDO AL REY</div>
+        <div class="app_header">EDIFICA TU ALMA</div>
         <div class="sub-header ">
           <div class="swipe-tabs">
             <div class="swipe-tab">CHAT</div>
@@ -63,11 +35,11 @@
                 </div>
                 <div class="song_info">
                   <p class="player_status">Detenido</p>
-                  <p class="song">Tory Lanez & Rich The Kid</p>
+                  <p class="song">Jesus Adrian Romero</p>
                 </div>
                 <div class="player_controls">
                   <img src="img/share_button.png" class="share" alt="Share"
-                    onclick="window.plugins.socialsharing.share('Estoy escuchando ELOHIM RADIO. Una radio para salvación de tu alma. Descargala app desde Play store. ', null, null, 'https://play.google.com/store/apps/details?id=tk.hectorlara.elohimradio')">
+                    onclick="window.plugins.socialsharing.share('Estoy escuchando ADONAI RADIO. La radio que edifica tu alma. Descargala app desde Play store. ', null, null, 'https://play.google.com/store/apps/dev?id=5402698230758818033')">
                   <img src="img/play_button.png" id="play_button" class="play" alt="Play">
                   <img src="img/pause_button.png" id="pause_button" class="pause" alt="pause" style="display:none">
                   <img src="img/love_button.png" class="rate" alt="Rate">
@@ -85,7 +57,7 @@
             <div class="chatContent">
                 <div id="chat" class="change_name">
                   <img src="img/no_photo_profile_settings.png" style="width: 18px;margin-right: 10px;">
-                  <p id="presence" style="color: red;"></p>
+                  <p id="presence" style="color:#692c91"></p>
                 </div>
                 <div class="chat-controls">
                   <input type="text" id="input" placeholder="Escribe un mensaje aquí..." style="border: none;">
@@ -142,7 +114,7 @@
               var platform = device.platform;
               switch(platform.toLowerCase()) {
                   case "android":
-                      window.open("https://play.google.com/store/apps/details?id=tk.hectorlara.elohimradio", "_system");
+                      window.open("https://play.google.com/store/apps/dev?id=5402698230758818033", "_system");
                       break;
                   case "ios":
                       window.open("itunes_url", "_system");
