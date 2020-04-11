@@ -155,6 +155,11 @@
         "parents": {
           "/*": []
         }
+      },
+      "app/src/main/AndroidManifest.xml": {
+        "parents": {
+          "/manifest/application": []
+        }
       }
     }
   },

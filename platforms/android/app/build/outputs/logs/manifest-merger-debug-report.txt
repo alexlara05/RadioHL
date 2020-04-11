@@ -115,6 +115,8 @@ MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:4:18-52
 	android:icon
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:4:53-80
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:4:141-176
 activity#hlara.info.adonairadio.MainActivity
 ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:5:9-10:20
 	android:screenOrientation
