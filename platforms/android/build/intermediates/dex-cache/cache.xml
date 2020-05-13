@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\21.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="fb787c18185d09295444bb1311f00ec9dddbd540">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\23.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="fff4f0153a3896ca2402ea0395a848c1f7068fb3">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\20.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="b3425fda3d89a401555582541a265b6d334db525">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\25.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="9577e4d746c6bad3ad1a3e82ec6af29fca0268cf">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="9a89d8984d104516fb45a31f7d647ce381625033">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\27.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="1ab7bb523a6e4e58252b75605859c4bf6e0b4191">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\22.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="2cf792ebd55e79281254ade2c1f681ef9b2e1a51">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\2.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="a58a89fff6530b4649150399f38c425831424c4d">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\32.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="ff99fcac452081c4d879d480316c4b87c31d621f">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\26.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="3111bbaf1cff93e882196058895ecd1f89c45b97">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\28.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="11a3d6af66da6bd4a8da89f421171e8e3d2d6d94">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\31.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="993d6a76b164974d81ff839d4ba3333b948d07c2">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\30.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="40ef828d1656670bfb440b178cd3f56243f07bc0">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\24.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="29540c4fd32c5743f764d18c86d0c8309a3f087b">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\18.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="7f133783c2585f537d4360f8a52555a7d87ea796">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\14.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="6f0753c0b94863b96fb25c12e89314a740249d5a">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\16.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="8b0992270fb020a6fb03bd31062311b6e0349963">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\33.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="30826ab602a9686e05e09e790a73e595a781aa1a">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\17.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="5aef7a2c1e71e219d4ae20e8335543d8c5fd51dc">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\29.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="8ea5ab56be77f0d3359906bcce9bc807ba786094">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\15.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="6b8b0c7ae62bfae224ca2bcc9ba5b63bbf0fa984">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\desugar\release\19.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="29.0.3"
+        sha1="6593be5621fbe3ab4fa57a9e0ca78d4909d687a9">
+        <dex dex="C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+
+</items>

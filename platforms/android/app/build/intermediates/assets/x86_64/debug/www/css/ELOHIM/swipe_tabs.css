@@ -1,0 +1,66 @@
+*:focus {
+  outline: none;
+}
+.swipe-tabs{
+  background: #b43b3b;
+}
+.swipe-tab:active{
+  outline: none;
+}
+.slick-initialized .swipe-tab-content {
+    position: relative;
+   
+  }
+  @media screen and (min-width: 767px) {
+    .slick-initialized .swipe-tab-content {
+      min-height: 500px;
+    }
+  }
+  .slick-initialized .swipe-tab {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex !important;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 50px;
+    background: none;
+    border: 0;
+    color: #fff2f2;
+    cursor: pointer;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .slick-initialized .swipe-tab:hover {
+    color: #fff2f2;
+  }
+  .slick-initialized .swipe-tab.active-tab {
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    background: #b43b3b;
+}
+  .main-container {
+    padding: 20px;
+  }
+
+  /*
+  .slick-track{
+    display: flex !important;
+    align-items: flex-end;
+  }
+*/
+  .fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%;
+    z-index: 999999;
+  }

@@ -8,43 +8,34 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
-    },
-    "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
-    },
-    "cordova-plugin-media": {
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
+      "PACKAGE_NAME": "hlara.info.adonairadio"
     },
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
-    },
-    "cordova-plugin-background-mode": {
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
+      "PACKAGE_NAME": "hlara.info.adonairadio"
     },
     "cordova-plugin-x-socialsharing": {
       "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
+      "PACKAGE_NAME": "hlara.info.adonairadio"
     },
     "cordova-plugin-music-controls": {
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
+      "PACKAGE_NAME": "hlara.info.adonairadio"
     },
     "onesignal-cordova-plugin": {
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
+      "PACKAGE_NAME": "hlara.info.adonairadio"
     },
-    "cordova.plugins.DozeOptimize": {
-      "PACKAGE_NAME": "tk.hectorlara.elohimradio"
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "hlara.info.adonairadio"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "hlara.info.adonairadio"
     }
   },
   "dependent_plugins": {
-    "cordova-plugin-file": {
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
-    },
-    "cordova-plugin-device": {
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
-    },
     "es6-promise-plugin": {
-      "PACKAGE_NAME": "tk.hectorlara.radiohl"
+      "PACKAGE_NAME": "hlara.info.adonairadio"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "hlara.info.adonairadio"
     }
   }
 }

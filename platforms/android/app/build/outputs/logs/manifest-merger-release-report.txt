@@ -185,7 +185,7 @@ ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:23:75-139
 	android:name
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:23:19-74
-intent-filter#com.amazon.device.messaging.intent.RECEIVE+com.amazon.device.messaging.intent.REGISTRATION+tk.hectorlara.radiohl
+intent-filter#com.amazon.device.messaging.intent.RECEIVE+com.amazon.device.messaging.intent.REGISTRATION+hlara.info.adonairadio
 ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:24:13-28:29
 action#com.amazon.device.messaging.intent.REGISTRATION
 ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:25:17-90
@@ -195,7 +195,7 @@ action#com.amazon.device.messaging.intent.RECEIVE
 ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:26:17-85
 	android:name
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:26:25-82
-category#tk.hectorlara.radiohl
+category#hlara.info.adonairadio
 ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:27:17-66
 	android:name
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:27:27-63
@@ -315,13 +315,13 @@ uses-permission#com.amazon.device.messaging.permission.RECEIVE
 ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:41:5-86
 	android:name
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:41:22-83
-permission#tk.hectorlara.radiohl.permission.RECEIVE_ADM_MESSAGE
+permission#hlara.info.adonairadio.permission.RECEIVE_ADM_MESSAGE
 ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:42:5-123
 	android:protectionLevel
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:42:85-120
 	android:name
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:42:17-84
-uses-permission#tk.hectorlara.radiohl.permission.RECEIVE_ADM_MESSAGE
+uses-permission#hlara.info.adonairadio.permission.RECEIVE_ADM_MESSAGE
 ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:43:5-92
 	android:name
 		ADDED from C:\Users\Alex\Desktop\Cordova Projects\ELOHIMRADIO\radiohl\platforms\android\app\src\main\AndroidManifest.xml:43:22-89

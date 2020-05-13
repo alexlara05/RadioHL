@@ -1,0 +1,4 @@
+#Sun Apr 12 02:43:18 EDT 2020
+base.0=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\arm64\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,21 +1,42 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
   {
-    "id": "cordova-plugin-network-information.network",
-    "file": "plugins/cordova-plugin-network-information/www/network.js",
-    "pluginId": "cordova-plugin-network-information",
+    "id": "cordova-plugin-splashscreen.SplashScreen",
+    "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+    "pluginId": "cordova-plugin-splashscreen",
     "clobbers": [
-      "navigator.connection",
-      "navigator.network.connection"
+      "navigator.splashscreen"
     ]
   },
   {
-    "id": "cordova-plugin-network-information.Connection",
-    "file": "plugins/cordova-plugin-network-information/www/Connection.js",
-    "pluginId": "cordova-plugin-network-information",
+    "id": "cordova-plugin-x-socialsharing.SocialSharing",
+    "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+    "pluginId": "cordova-plugin-x-socialsharing",
     "clobbers": [
-      "Connection"
+      "window.plugins.socialsharing"
     ]
+  },
+  {
+    "id": "cordova-plugin-music-controls.MusicControls",
+    "file": "plugins/cordova-plugin-music-controls/www/MusicControls.js",
+    "pluginId": "cordova-plugin-music-controls",
+    "clobbers": [
+      "MusicControls"
+    ]
+  },
+  {
+    "id": "onesignal-cordova-plugin.OneSignal",
+    "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
+    "pluginId": "onesignal-cordova-plugin",
+    "clobbers": [
+      "OneSignal"
+    ]
+  },
+  {
+    "id": "es6-promise-plugin.Promise",
+    "file": "plugins/es6-promise-plugin/www/promise.js",
+    "pluginId": "es6-promise-plugin",
+    "runs": true
   },
   {
     "id": "cordova-plugin-file.DirectoryEntry",
@@ -207,83 +228,20 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-splashscreen.SplashScreen",
-    "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
-    "pluginId": "cordova-plugin-splashscreen",
+    "id": "cordova-plugin-network-information.network",
+    "file": "plugins/cordova-plugin-network-information/www/network.js",
+    "pluginId": "cordova-plugin-network-information",
     "clobbers": [
-      "navigator.splashscreen"
+      "navigator.connection",
+      "navigator.network.connection"
     ]
   },
   {
-    "id": "cordova-plugin-inappbrowser.inappbrowser",
-    "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-    "pluginId": "cordova-plugin-inappbrowser",
+    "id": "cordova-plugin-network-information.Connection",
+    "file": "plugins/cordova-plugin-network-information/www/Connection.js",
+    "pluginId": "cordova-plugin-network-information",
     "clobbers": [
-      "cordova.InAppBrowser.open",
-      "window.open"
-    ]
-  },
-  {
-    "id": "cordova-plugin-device.device",
-    "file": "plugins/cordova-plugin-device/www/device.js",
-    "pluginId": "cordova-plugin-device",
-    "clobbers": [
-      "device"
-    ]
-  },
-  {
-    "id": "cordova-plugin-background-mode.BackgroundMode",
-    "file": "plugins/cordova-plugin-background-mode/www/background-mode.js",
-    "pluginId": "cordova-plugin-background-mode",
-    "clobbers": [
-      "cordova.plugins.backgroundMode",
-      "plugin.backgroundMode"
-    ]
-  },
-  {
-    "id": "es6-promise-plugin.Promise",
-    "file": "plugins/es6-promise-plugin/www/promise.js",
-    "pluginId": "es6-promise-plugin",
-    "runs": true
-  },
-  {
-    "id": "cordova-plugin-x-socialsharing.SocialSharing",
-    "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
-    "pluginId": "cordova-plugin-x-socialsharing",
-    "clobbers": [
-      "window.plugins.socialsharing"
-    ]
-  },
-  {
-    "id": "cordova-plugin-music-controls.MusicControls",
-    "file": "plugins/cordova-plugin-music-controls/www/MusicControls.js",
-    "pluginId": "cordova-plugin-music-controls",
-    "clobbers": [
-      "MusicControls"
-    ]
-  },
-  {
-    "id": "onesignal-cordova-plugin.OneSignal",
-    "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
-    "pluginId": "onesignal-cordova-plugin",
-    "clobbers": [
-      "OneSignal"
-    ]
-  },
-  {
-    "id": "cordova-plugin-powermanagement.powermanagement",
-    "file": "plugins/cordova-plugin-powermanagement/www/powermanagement.js",
-    "pluginId": "cordova-plugin-powermanagement",
-    "clobbers": [
-      "window.powermanagement"
-    ]
-  },
-  {
-    "id": "cordova.plugins.DozeOptimize.DozeOptimize",
-    "file": "plugins/cordova.plugins.DozeOptimize/www/DozeOptimize.js",
-    "pluginId": "cordova.plugins.DozeOptimize",
-    "clobbers": [
-      "cordova.plugins.DozeOptimize"
+      "Connection"
     ]
   }
 ];
@@ -291,19 +249,14 @@ module.exports.metadata =
 // TOP OF METADATA
 {
   "cordova-plugin-whitelist": "1.3.3",
-  "cordova-plugin-network-information": "2.0.1",
-  "cordova-plugin-file": "6.0.1",
-  "cordova-plugin-media": "5.0.2",
   "cordova-plugin-splashscreen": "5.0.2",
-  "cordova-plugin-inappbrowser": "3.0.0",
-  "cordova-plugin-device": "2.0.2",
-  "cordova-plugin-background-mode": "0.7.2",
-  "es6-promise-plugin": "4.2.2",
   "cordova-plugin-x-socialsharing": "5.4.4",
   "cordova-plugin-music-controls": "2.2.0",
   "onesignal-cordova-plugin": "2.4.6",
-  "cordova-plugin-powermanagement": "1.0.5",
-  "cordova.plugins.DozeOptimize": "0.1.3"
+  "es6-promise-plugin": "4.2.2",
+  "cordova-plugin-file": "6.0.2",
+  "cordova-plugin-media": "5.0.3",
+  "cordova-plugin-network-information": "2.0.2"
 };
 // BOTTOM OF METADATA
 });

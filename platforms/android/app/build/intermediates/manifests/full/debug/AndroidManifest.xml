@@ -2,12 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="hlara.info.adonairadio"
     android:hardwareAccelerated="true"
-    android:versionCode="10001"
-    android:versionName="1.0.1" >
+    android:versionCode="10004"
+    android:versionName="1.0.4" >
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="29" />
+        android:targetSdkVersion="27" />
 
     <supports-screens
         android:anyDensity="true"
@@ -18,29 +18,28 @@
         android:xlargeScreens="true" />
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <permission
+        android:name="hlara.info.adonairadio.permission.RECEIVE_ADM_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="hlara.info.adonairadio.permission.RECEIVE_ADM_MESSAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE" />
-
-    <permission
-        android:name="tk.hectorlara.radiohl.permission.RECEIVE_ADM_MESSAGE"
-        android:protectionLevel="signature" />
-
-    <uses-permission android:name="tk.hectorlara.radiohl.permission.RECEIVE_ADM_MESSAGE" />
-    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
         android:name="hlara.info.adonairadio.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="hlara.info.adonairadio.permission.C2D_MESSAGE" />
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!--
  Required so the device vibrates on receiving a push notification.
          Vibration settings of the device still apply.
@@ -80,7 +79,7 @@
             android:name="hlara.info.adonairadio.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
             android:label="@string/activity_name"
-            android:launchMode="singleInstance"
+            android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
             android:windowSoftInputMode="adjustResize" >
@@ -91,8 +90,16 @@
             </intent-filter>
         </activity>
 
-        <service android:name="de.appplant.cordova.plugin.background.ForegroundService" />
+        <receiver
+            android:name="com.onesignal.ADMMessageHandler$Receiver"
+            android:permission="com.amazon.device.messaging.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.amazon.device.messaging.intent.REGISTRATION" />
+                <action android:name="com.amazon.device.messaging.intent.RECEIVE" />
 
+                <category android:name="hlara.info.adonairadio" />
+            </intent-filter>
+        </receiver>
         <receiver
             android:name="nl.xservices.plugins.ShareChooserPendingIntent"
             android:enabled="true" >
@@ -121,17 +128,6 @@
         <service
             android:name="com.onesignal.ADMMessageHandler"
             android:exported="false" />
-
-        <receiver
-            android:name="com.onesignal.ADMMessageHandler$Receiver"
-            android:permission="com.amazon.device.messaging.permission.SEND" >
-            <intent-filter>
-                <action android:name="com.amazon.device.messaging.intent.REGISTRATION" />
-                <action android:name="com.amazon.device.messaging.intent.RECEIVE" />
-
-                <category android:name="tk.hectorlara.radiohl" />
-            </intent-filter>
-        </receiver>
 
         <meta-data
             android:name="onesignal_app_id"

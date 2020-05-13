@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Apr 04 18:38:40 EDT 2020
+#Wed May 13 18:55:47 EDT 2020
 60.set=ASSET
 52.set=ASSET
 53.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -13,8 +13,8 @@
 82.baseType=DIRECTORY
 42.baseType=DIRECTORY
 13.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
-3.path=www/plugins/onesignal-cordova-plugin/www/OneSignal.js
-47.path=www/img/ELOHIM/play_button.png
+3.path=www/img/ELOHIM/logo.png
+47.path=www/plugins/cordova-plugin-powermanagement/www/powermanagement.js
 60.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 94.path=www/css/ELOHIM/slick.css
 72.baseType=DIRECTORY
@@ -73,7 +73,7 @@
 88.set=ASSET
 12.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 2.path=www/img/icon.png
-46.path=www/plugins/cordova-plugin-powermanagement/www/powermanagement.js
+46.path=www/img/ELOHIM/play_button.png
 93.path=www/plugins/cordova-plugin-file/www/Flags.js
 9.path=www/js - ELOHIM/posts.js
 74.baseType=DIRECTORY
@@ -196,7 +196,7 @@
 81.baseType=DIRECTORY
 91.path=www/plugins/cordova-plugin-file/www/Entry.js
 41.baseType=DIRECTORY
-7.path=www/js - ELOHIM/pubnub.min.js
+7.path=www/plugins/cordova-plugin-file/www/FileSystem.js
 98.path=www/img/pause_button.png
 3.set=ASSET
 19.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -252,12 +252,12 @@
 43.path=www/css/index.css
 16.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 90.path=www/js/player.js
-6.path=www/plugins/cordova-plugin-file/www/FileSystem.js
-97.path=www/css/ELOHIM/index.css
+6.path=www/js - ELOHIM/pubnub.min.js
+97.path=www/plugins/cordova-plugin-file/www/Metadata.js
 1.set=ASSET
 73.baseType=DIRECTORY
 18.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
-50.path=www/js - ELOHIM/player.js
+50.path=www/plugins/cordova-plugin-file/www/FileEntry.js
 65.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 count=100
 57.path=www/js/utils.js
@@ -309,8 +309,8 @@ count=100
 42.path=www/cordova-js-src/exec.js
 15.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 5.path=www/plugins/cordova-plugin-file/www/LocalFileSystem.js
-49.path=www/plugins/cordova-plugin-file/www/FileEntry.js
-96.path=www/plugins/cordova-plugin-file/www/Metadata.js
+49.path=www/js - ELOHIM/player.js
+96.path=www/css/ELOHIM/index.css
 75.baseType=DIRECTORY
 35.baseType=DIRECTORY
 17.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -360,7 +360,7 @@ count=100
 41.path=www/js/swipe_tabs.js
 77.baseType=DIRECTORY
 14.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
-4.path=www/img/ELOHIM/logo.png
+4.path=www/plugins/onesignal-cordova-plugin/www/OneSignal.js
 37.baseType=DIRECTORY
 48.path=www/css/slick.css
 61.base=C\:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\assets\\debug
