@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Alex\\Desktop\\Cordova Projects\\ELOHIMRADIO\\radiohl\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\32e81887de75780c0f618b3b89accb79\\res\\values-am\\values.xml",
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\10d128c9f5846a7bb87bcb28a9046890\\res\\values-am\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\e2ef35e0ff8bba81b52fb19e17e17c3e\\res\\values-am\\values.xml",
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\7aa5c27b5400bce48aae59d8eeaea4b6\\res\\values-am\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\2e804ce166a68e9fea4f4854b07f0b15\\res\\values-am\\values-am.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "21",
-                        "startColumns": "4",
-                        "startOffsets": "2704",
-                        "endColumns": "100",
-                        "endOffsets": "2800"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-12.0.1.aar\\582eef033d0efe109d3696e6be5e23d0\\res\\values-am\\values.xml",
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-12.0.1.aar\\6fc11ea65e12fc2a0ccfbb176c7d385a\\res\\values-am\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -69,6 +52,23 @@
                         "startOffsets": "2600",
                         "endColumns": "103",
                         "endOffsets": "2699"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\152cc730c3aa1807e1c83f14eccf26d5\\res\\values-am\\values-am.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2704",
+                        "endColumns": "100",
+                        "endOffsets": "2800"
                     }
                 }
             ]
